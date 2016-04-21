@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_list_item_conntainer_layout"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingBottom="0dip"
+    android:paddingLeft="60.25dip"
+    android:paddingTop="0dip" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EFEFEF" >
+
+        <TextView
+            android:id="@+id/home_comment_list_chind_flower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:gravity="center_vertical|right"
+            android:minWidth="30dip"
+            android:paddingTop="5dip"
+            android:textColor="#696969"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/home_comment_list_chind_user_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:layout_toLeftOf="@id/home_comment_list_chind_flower"
+            android:paddingLeft="5.25dip"
+            android:paddingTop="5.25dip"
+            android:textColor="@color/action_bar_color"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/home_comment_list_chind_comment_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EFEFEF"
+        android:lineSpacingExtra="3dip"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5.25dip"
+        android:paddingRight="5.25dip"
+        android:paddingTop="5dip"
+        android:textColor="#696969"
+        android:textSize="15sp" />
+
+    <View
+        style="@style/style_common_horizontal_line"
+        android:layout_height="1dip"
+        android:background="#e8e8e8" />
+
+</LinearLayout>

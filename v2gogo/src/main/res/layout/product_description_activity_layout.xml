@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_common_action_bar" >
+
+        <ImageButton
+            style="@style/style_common_action_back"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            style="@style/style_common_action_bar_title"
+            android:text="@string/about_product_tip" />
+    </RelativeLayout>
+
+    <com.v2gogo.project.views.scrollview.ReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="12dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="6dip"
+        android:paddingTop="12dip"
+        android:scrollbarThumbVertical="@drawable/shape_scroll_thumb_drawable" >
+
+        <TextView
+            android:id="@+id/product_desc_layout_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5dip"
+            android:textColor="#696969"
+            android:textSize="15sp" />
+    </com.v2gogo.project.views.scrollview.ReboundScrollView>
+
+</LinearLayout>

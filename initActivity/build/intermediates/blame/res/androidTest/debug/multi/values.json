@@ -1,0 +1,353 @@
+[
+    {
+        "outputFile": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/initActivity/build/intermediates/res/merged/androidTest/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 54,
+                    "endOffset": 105
+                },
+                "from": {
+                    "file": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/initActivity/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 54,
+                        "endOffset": 105
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 110,
+                    "endColumn": 62,
+                    "endOffset": 168
+                },
+                "from": {
+                    "file": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/initActivity/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 110,
+                        "endColumn": 62,
+                        "endOffset": 168
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 173,
+                    "endColumn": 47,
+                    "endOffset": 216
+                },
+                "from": {
+                    "file": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/initActivity/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 173,
+                        "endColumn": 47,
+                        "endOffset": 216
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 221,
+                    "endColumn": 53,
+                    "endOffset": 270
+                },
+                "from": {
+                    "file": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/initActivity/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 221,
+                        "endColumn": 53,
+                        "endOffset": 270
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 275,
+                    "endColumn": 96,
+                    "endOffset": 367
+                },
+                "from": {
+                    "file": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/initActivity/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 275,
+                        "endColumn": 96,
+                        "endOffset": 367
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 372,
+                    "endColumn": 67,
+                    "endOffset": 435
+                },
+                "from": {
+                    "file": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/initActivity/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 372,
+                        "endColumn": 67,
+                        "endOffset": 435
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 440,
+                    "endColumn": 60,
+                    "endOffset": 496
+                },
+                "from": {
+                    "file": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/initActivity/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 440,
+                        "endColumn": 60,
+                        "endOffset": 496
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 501,
+                    "endColumn": 60,
+                    "endOffset": 557
+                },
+                "from": {
+                    "file": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/initActivity/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 501,
+                        "endColumn": 60,
+                        "endOffset": 557
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 562,
+                    "endColumn": 77,
+                    "endOffset": 635
+                },
+                "from": {
+                    "file": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/initActivity/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 562,
+                        "endColumn": 77,
+                        "endOffset": 635
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 640,
+                    "endColumn": 70,
+                    "endOffset": 706
+                },
+                "from": {
+                    "file": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/initActivity/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 640,
+                        "endColumn": 70,
+                        "endOffset": 706
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 711,
+                    "endColumn": 92,
+                    "endOffset": 799
+                },
+                "from": {
+                    "file": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/initActivity/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 711,
+                        "endColumn": 92,
+                        "endOffset": 799
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 804,
+                    "endColumn": 80,
+                    "endOffset": 880
+                },
+                "from": {
+                    "file": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/initActivity/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 804,
+                        "endColumn": 80,
+                        "endOffset": 880
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 885,
+                    "endColumn": 88,
+                    "endOffset": 969
+                },
+                "from": {
+                    "file": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/initActivity/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 885,
+                        "endColumn": 88,
+                        "endOffset": 969
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 974,
+                    "endColumn": 72,
+                    "endOffset": 1042
+                },
+                "from": {
+                    "file": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/initActivity/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 974,
+                        "endColumn": 72,
+                        "endOffset": 1042
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1047,
+                    "endColumn": 56,
+                    "endOffset": 1099
+                },
+                "from": {
+                    "file": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/initActivity/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1047,
+                        "endColumn": 56,
+                        "endOffset": 1099
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1104,
+                    "endColumn": 67,
+                    "endOffset": 1167
+                },
+                "from": {
+                    "file": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/initActivity/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1104,
+                        "endColumn": 67,
+                        "endOffset": 1167
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1172,
+                    "endLine": 27,
+                    "endColumn": 12,
+                    "endOffset": 1814
+                },
+                "from": {
+                    "file": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/initActivity/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1172,
+                        "endLine": 27,
+                        "endColumn": 12,
+                        "endOffset": 1814
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1819,
+                    "endLine": 32,
+                    "endColumn": 12,
+                    "endOffset": 2024
+                },
+                "from": {
+                    "file": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/initActivity/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1819,
+                        "endLine": 32,
+                        "endColumn": 12,
+                        "endOffset": 2024
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <com.v2gogo.project.views.logic.VoteOptionNumberLayout
+        android:id="@+id/home_interaction_activity_heade_number_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.v2gogo.project.views.logic.VoteOptionDescriptionLayout
+        android:id="@+id/home_interaction_activity_heade_description_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip" />
+
+    <TextView
+        android:id="@+id/home_interaction_activity_header_notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:background="@android:color/white"
+        android:paddingTop="15dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="6dip"
+        android:paddingBottom="15dip"
+        android:textColor="@color/app_common_black"
+        android:textSize="15sp" />
+
+    <FrameLayout
+        android:id="@+id/home_interaction_activity_header_commemt_oparation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:background="@android:color/white" >
+
+        <RadioGroup
+            android:id="@+id/home_interaction_activity_header_rg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_home_interaction_switch_height"
+            android:orientation="horizontal"
+            android:paddingLeft="18dip"
+            android:paddingRight="18dip" >
+
+            <RadioButton
+                android:id="@+id/home_interaction_activity_header_newest_rb"
+                style="@style/style_common_radion_button_text"
+                android:checked="true"
+                android:text="@string/home_v2gogo_interaction_comment_newest" />
+
+            <RadioButton
+                android:id="@+id/home_interaction_activity_header_hotest_rb"
+                style="@style/style_common_radion_button_text"
+                android:text="@string/home_v2gogo_interaction_comment_hotest" />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/home_interaction_activity_header_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:contentDescription="@string/app_name"
+            android:scaleType="matrix"
+            android:src="@drawable/common_ui_popup_titleline" />
+    </FrameLayout>
+
+</LinearLayout>

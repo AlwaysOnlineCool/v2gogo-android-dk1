@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_list_item_conntainer_layout"
+    android:background="@drawable/selector_middle_skin_listview_item_drawable" >
+
+    <ImageView
+        android:id="@+id/home_every_day_shop_goods_thumb"
+        style="@style/style_list_item_thumb"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/home_every_day_shop_goods_yet_completed"
+        android:layout_width="@dimen/list_thumb_width_and_height"
+        android:layout_height="@dimen/list_thumb_width_and_height"
+        android:layout_alignBottom="@id/home_every_day_shop_goods_thumb"
+        android:layout_alignLeft="@id/home_every_day_shop_goods_thumb"
+        android:layout_alignRight="@id/home_every_day_shop_goods_thumb"
+        android:layout_alignTop="@id/home_every_day_shop_goods_thumb"
+        android:background="@drawable/shape_shop_yet_completed_drawable"
+        android:gravity="center"
+        android:text="@string/shop_yet_completed_tip"
+        android:textColor="@android:color/white"
+        android:textSize="17sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_thumb_width_and_height"
+        android:layout_marginLeft="10dip"
+        android:layout_toRightOf="@id/home_every_day_shop_goods_thumb" >
+
+        <TextView
+            android:id="@+id/home_every_day_shop_goods_name"
+            style="@style/style_list_item_title"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="false" />
+
+        <TextView
+            android:id="@+id/home_every_day_shop_goods_description"
+            style="@style/style_list_item_description"
+            android:layout_centerVertical="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" >
+
+            <TextView
+                android:id="@+id/home_every_day_goods_gogo_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="@color/action_bar_color"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/home_every_day_goods_marketprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dip"
+                android:layout_toRightOf="@id/home_every_day_goods_gogo_price"
+                android:textColor="#696969"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/home_every_day_goods_yet_sell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textColor="#696969"
+                android:textSize="13sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

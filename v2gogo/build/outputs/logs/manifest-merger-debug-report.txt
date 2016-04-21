@@ -1,0 +1,843 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:2:1-503:12
+	package
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml
+		INJECTED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:7:5-32
+		INJECTED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml
+		INJECTED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:5:5-51
+	android:versionCode
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:6:5-30
+		INJECTED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml
+		INJECTED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:4:5-45
+uses-sdk
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:9:5-11:41
+MERGED from [v2gogo-android:initActivity:unspecified] /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/exploded-aar/v2gogo-android/initActivity/unspecified/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:11:9-38
+		INJECTED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml
+		INJECTED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:10:9-35
+		INJECTED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml
+		INJECTED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:14:5-71
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:14:22-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:15:5-68
+MERGED from [v2gogo-android:initActivity:unspecified] /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/exploded-aar/v2gogo-android/initActivity/unspecified/AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:15:22-65
+uses-permission#android.permission.INTERNET
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:16:5-67
+MERGED from [v2gogo-android:initActivity:unspecified] /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/exploded-aar/v2gogo-android/initActivity/unspecified/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:16:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:17:5-75
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:17:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:18:5-79
+MERGED from [v2gogo-android:initActivity:unspecified] /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/exploded-aar/v2gogo-android/initActivity/unspecified/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:18:22-76
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:19:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:20:5-76
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:20:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:21:5-76
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:21:22-73
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:23:22-78
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:24:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:25:22-77
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:26:5-84
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:26:22-81
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:27:5-66
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:27:22-63
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:28:5-68
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:28:22-65
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:29:5-69
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:29:22-66
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:30:5-78
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:30:22-75
+uses-permission#android.permission.READ_LOGS
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:33:5-68
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:33:22-65
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:34:5-81
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:34:22-78
+uses-permission#getui.permission.GetuiService.com.v2gogo.project
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:35:5-88
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:35:22-85
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:43:5-74
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:43:22-71
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:44:5-71
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:44:22-68
+permission#getui.permission.GetuiService.com.v2gogo.project
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:46:5-49:18
+	android:protectionLevel
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:48:9-41
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:47:9-72
+application
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:51:5-501:19
+MERGED from [v2gogo-android:initActivity:unspecified] /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/exploded-aar/v2gogo-android/initActivity/unspecified/AndroidManifest.xml:15:5-24:19
+	android:label
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:55:9-41
+		REJECTED from [v2gogo-android:initActivity:unspecified] /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/exploded-aar/v2gogo-android/initActivity/unspecified/AndroidManifest.xml:17:9-32
+	android:allowBackup
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:53:9-35
+	android:icon
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:54:9-45
+		REJECTED from [v2gogo-android:initActivity:unspecified] /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/exploded-aar/v2gogo-android/initActivity/unspecified/AndroidManifest.xml:16:9-45
+	android:largeHeap
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:56:9-33
+	android:theme
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:58:9-56
+	tools:replace
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:57:9-67
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:52:9-65
+activity#com.v2gogo.project.activity.StartPageActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:59:9-68:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:61:13-49
+	android:theme
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:62:13-45
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:60:13-73
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:63:13-67:29
+action#android.intent.action.MAIN
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:64:17-69
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:64:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:66:17-77
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:66:27-74
+meta-data#TESTIN_APPKEY
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:70:9-72:64
+	android:value
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:72:13-61
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:71:13-41
+meta-data#TESTIN_CHANNEL
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:73:9-75:38
+	android:value
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:75:13-35
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:74:13-42
+activity#com.mob.tools.MobUIShell
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:77:9-91:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:80:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:82:13-67
+	android:configChanges
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:79:13-74
+	android:theme
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:81:13-72
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:78:13-52
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:83:13-90:29
+data
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:84:17-58
+	android:scheme
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:84:23-55
+action#android.intent.action.VIEW
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:86:17-69
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:86:25-66
+category#android.intent.category.BROWSABLE
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:88:17-78
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:88:27-75
+category#android.intent.category.DEFAULT
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:89:17-76
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:89:27-73
+activity#com.v2gogo.project.wxapi.WXEntryActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:94:9-98:75
+	android:exported
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:97:13-36
+	android:configChanges
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:96:13-74
+	android:theme
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:98:13-72
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:95:13-50
+activity#cn.sharesdk.tencent.qq.ResultReceiver
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:100:9-118:20
+	android:launchMode
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:102:13-44
+	android:noHistory
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:103:13-37
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:101:13-65
+activity#io.vov.vitamio.activity.InitActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:119:9-124:63
+MERGED from [v2gogo-android:initActivity:unspecified] /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/exploded-aar/v2gogo-android/initActivity/unspecified/AndroidManifest.xml:18:9-23:63
+	android:launchMode
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:122:13-43
+	android:windowSoftInputMode
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:124:13-60
+	android:configChanges
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:121:13-113
+	android:theme
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:123:13-71
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:120:13-64
+activity#com.v2gogo.project.activity.home.v2gogo.HomeV2gogoActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:125:9-128:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:127:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:126:13-86
+activity#com.v2gogo.project.activity.home.theme.NewestThemePhotoListActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:129:9-131:52
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:131:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:130:13-95
+activity#com.v2gogo.project.activity.home.theme.HotestThemePhotoListActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:132:9-134:52
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:134:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:133:13-95
+activity#com.v2gogo.project.activity.home.theme.HomeThemePhotoTabActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:135:9-139:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:138:13-49
+	android:launchMode
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:137:13-44
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:136:13-92
+activity#com.v2gogo.project.activity.home.theme.HomeThemePhotoSearchActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:140:9-143:76
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:142:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:143:13-73
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:141:13-95
+activity#com.v2gogo.project.activity.home.theme.HomeThemePhotoDetailsActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:144:9-146:52
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:146:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:145:13-96
+activity#com.v2gogo.project.activity.home.theme.HomeThemePhotoPostActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:147:9-150:76
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:149:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:150:13-73
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:148:13-93
+activity#com.v2gogo.project.activity.home.theme.HomeThemePhotoCommandListActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:151:9-153:52
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:153:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:152:13-100
+activity#com.alipay.sdk.app.H5PayActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:154:9-160:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:158:13-47
+	android:exported
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:157:13-37
+	android:windowSoftInputMode
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:159:13-73
+	android:configChanges
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:156:13-74
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:155:13-60
+activity#com.v2gogo.project.activity.WizardActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:161:9-164:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:163:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:162:13-70
+activity#com.v2gogo.project.activity.StartPageAdActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:165:9-168:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:167:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:166:13-75
+activity#com.v2gogo.project.activity.home.v2gogo.HomeV2gogoDaJiangActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:169:9-173:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:171:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:172:13-73
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:170:13-93
+activity#com.v2gogo.project.activity.home.HomeConcernActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:174:9-177:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:176:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:175:13-80
+activity#com.v2gogo.project.activity.exchange.ExchangePrizeDetailsActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:178:9-180:52
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:180:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:179:13-93
+activity#com.v2gogo.project.activity.profile.ProfileMessageActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:181:9-184:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:183:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:182:13-86
+activity#com.v2gogo.project.activity.profile.setting.ProfileSettingActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:185:9-188:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:187:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:186:13-94
+activity#com.v2gogo.project.activity.profile.ProfilePrizeActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:189:9-192:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:191:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:190:13-84
+activity#com.v2gogo.project.activity.profile.ProfileInviteFriendActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:193:9-196:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:195:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:194:13-91
+activity#com.v2gogo.project.activity.profile.ProfileOrderActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:197:9-200:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:199:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:198:13-84
+activity#com.v2gogo.project.activity.PhotoPreviewActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:201:9-205:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:203:13-49
+	android:theme
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:204:13-72
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:202:13-76
+activity#com.v2gogo.project.activity.profile.ProfileCommentActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:206:9-209:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:208:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:207:13-86
+activity#com.v2gogo.project.activity.shop.CommitOrderActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:210:9-213:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:212:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:211:13-80
+activity#com.v2gogo.project.activity.home.theme.BaseThemePhotoListActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:214:9-217:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:216:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:215:13-93
+activity#com.v2gogo.project.activity.profile.ProfileCollectionActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:218:9-221:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:220:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:219:13-89
+activity#com.v2gogo.project.activity.profile.setting.ProfileSettingPayActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:222:9-225:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:224:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:223:13-97
+activity#com.v2gogo.project.activity.profile.ProfileMessageDetailsActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:226:9-229:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:228:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:227:13-93
+activity#com.v2gogo.project.activity.profile.ProfileInfoActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:230:9-233:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:232:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:231:13-83
+activity#com.v2gogo.project.activity.profile.ProfileProviceActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:234:9-237:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:236:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:235:13-86
+activity#com.v2gogo.project.activity.profile.ProfileCommentTabActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:238:9-241:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:240:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:239:13-89
+activity#com.v2gogo.project.activity.profile.ProfileReplyCommentActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:242:9-245:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:244:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:243:13-91
+activity#com.v2gogo.project.activity.shop.ShopActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:246:9-249:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:248:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:247:13-73
+activity#com.v2gogo.project.activity.home.HomeShakeActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:250:9-253:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:252:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:251:13-78
+activity#com.v2gogo.project.activity.account.AccountVerificationCodeActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:254:9-258:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:256:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:257:13-73
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:255:13-95
+activity#com.v2gogo.project.activity.account.AccountLoginActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:259:9-263:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:261:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:262:13-73
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:260:13-84
+activity#com.v2gogo.project.activity.account.AccountRegisterActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:264:9-267:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:266:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:265:13-87
+activity#com.v2gogo.project.activity.MainTabActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:268:9-272:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:271:13-49
+	android:launchMode
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:270:13-44
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:269:13-71
+activity#com.v2gogo.project.activity.home.HomeCommentActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:273:9-277:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:275:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:276:13-73
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:274:13-80
+activity#com.v2gogo.project.activity.home.HomeArticleDetailsActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:278:9-281:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:280:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:279:13-87
+activity#com.v2gogo.project.activity.home.HomeCommentListActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:282:9-286:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:284:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:285:13-73
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:283:13-84
+activity#com.v2gogo.project.activity.home.HomeActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:287:9-291:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:290:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:289:13-47
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:288:13-73
+activity#com.v2gogo.project.activity.home.HomeActivity2
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:292:9-296:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:295:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:294:13-47
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:293:13-74
+activity#com.v2gogo.project.activity.profile.ProfileActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:297:9-300:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:299:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:298:13-79
+activity#com.v2gogo.project.activity.exchange.ExchangeActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:301:9-304:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:303:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:302:13-81
+activity#com.v2gogo.project.activity.profile.ProfileModifyPasswordActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:305:9-309:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:307:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:308:13-73
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:306:13-93
+activity#com.v2gogo.project.activity.home.HotCommentListActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:310:9-313:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:312:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:311:13-83
+activity#com.v2gogo.project.activity.home.NewestCommentListActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:314:9-317:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:316:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:315:13-86
+activity#com.v2gogo.project.activity.account.AccountForgetPasswordActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:318:9-322:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:320:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:321:13-73
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:319:13-93
+activity#com.v2gogo.project.activity.V2gogoUserProtocolActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:323:9-326:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:325:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:324:13-82
+activity#com.v2gogo.project.activity.shop.GroupGoodsDetailsActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:327:9-330:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:329:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:328:13-86
+activity#com.v2gogo.project.activity.profile.setting.AboutUsActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:331:9-334:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:333:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:332:13-87
+activity#com.v2gogo.project.activity.profile.setting.FeedbackActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:335:9-339:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:337:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:338:13-73
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:336:13-88
+activity#com.v2gogo.project.activity.CoinRankActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:340:9-343:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:342:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:341:13-72
+activity#com.v2gogo.project.activity.profile.setting.ProductDescriptionActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:344:9-347:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:346:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:345:13-98
+activity#com.v2gogo.project.activity.profile.ProfileCityActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:348:9-351:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:350:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:349:13-83
+activity#com.v2gogo.project.activity.home.v2gogo.VedioPlayActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:352:9-358:20
+	android:process
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:355:13-38
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:356:13-50
+	android:launchMode
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:354:13-48
+	android:theme
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:357:13-71
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:353:13-85
+activity#com.v2gogo.project.activity.WebViewActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:359:9-362:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:361:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:360:13-71
+activity#com.v2gogo.project.activity.shop.OrderDetailsActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:363:9-366:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:365:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:364:13-81
+activity#com.v2gogo.project.activity.shop.OrderSettlementActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:367:9-370:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:369:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:368:13-84
+activity#com.v2gogo.project.activity.home.HomeLiveActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:371:9-374:20
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:373:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:372:13-77
+activity#com.v2gogo.project.activity.profile.ProfileEtcQuanActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:375:9-377:52
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:377:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:376:13-86
+activity#com.v2gogo.project.activity.home.theme.UploadPictureActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:378:9-380:52
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:380:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:379:13-88
+activity#com.v2gogo.project.activity.home.subject.HomeSubjectActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:381:9-383:52
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:383:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:382:13-88
+activity#com.v2gogo.project.activity.profile.ProfileScoreActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:384:9-386:52
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:386:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:385:13-84
+activity#com.v2gogo.project.activity.shop.GroupWebViewActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:387:9-389:52
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:389:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:388:13-81
+activity#com.v2gogo.project.activity.shop.GroupProductTypeWebViewActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:390:9-392:52
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:392:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:391:13-92
+activity#com.v2gogo.project.activity.shop.GroupProductListWebViewActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:393:9-395:52
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:395:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:394:13-92
+activity#com.v2gogo.project.activity.home.welfare.WelfareActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:396:9-398:52
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:398:13-49
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:397:13-84
+activity#com.v2gogo.project.wxapi.WXPayEntryActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:401:9-405:52
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:405:13-49
+	android:launchMode
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:404:13-43
+	android:exported
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:403:13-36
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:402:13-53
+activity#com.unionpay.uppay.PayActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:408:9-414:58
+	android:screenOrientation
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:413:13-49
+	android:label
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:412:13-45
+	android:excludeFromRecents
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:411:13-46
+	android:windowSoftInputMode
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:414:13-55
+	android:configChanges
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:410:13-63
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:409:13-58
+meta-data#PUSH_APPID
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:418:9-420:53
+	android:value
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:420:13-50
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:419:13-38
+meta-data#PUSH_APPKEY
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:421:9-423:54
+	android:value
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:423:13-51
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:422:13-39
+meta-data#PUSH_APPSECRET
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:424:9-426:54
+	android:value
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:426:13-51
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:425:13-42
+meta-data#PUSH_GROUPID
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:427:9-429:32
+	android:value
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:429:13-29
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:428:13-40
+receiver#com.v2gogo.project.PushDemoReceiver
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:432:9-438:20
+	android:exported
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:434:13-37
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:433:13-63
+intent-filter#com.igexin.sdk.action.0YiYoEgQtC98giwoNQnrv
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:435:13-437:29
+action#com.igexin.sdk.action.0YiYoEgQtC98giwoNQnrv
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:436:17-86
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:436:25-83
+service#com.igexin.sdk.PushService
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:441:9-446:19
+	android:process
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:445:13-43
+	android:label
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:444:13-47
+	android:exported
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:443:13-36
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:442:13-54
+receiver#com.igexin.sdk.PushReceiver
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:448:9-455:20
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:448:19-61
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE+com.igexin.sdk.action.refreshls
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:449:13-454:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:450:17-79
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:450:25-76
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:451:17-79
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:451:25-76
+action#android.intent.action.USER_PRESENT
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:452:17-77
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:452:25-74
+action#com.igexin.sdk.action.refreshls
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:453:17-74
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:453:25-71
+receiver#com.igexin.sdk.PushManagerReceiver
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:456:9-462:20
+	android:exported
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:458:13-37
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:457:13-62
+intent-filter#com.igexin.sdk.action.pushmanager
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:459:13-461:29
+action#com.igexin.sdk.action.pushmanager
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:460:17-76
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:460:25-73
+activity#com.igexin.sdk.PushActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:464:9-471:20
+	android:process
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:468:13-43
+	android:excludeFromRecents
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:466:13-46
+	android:exported
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:467:13-37
+	android:theme
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:470:13-72
+	android:taskAffinity
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:469:13-67
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:465:13-55
+service#com.igexin.download.DownloadService
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:473:9-475:46
+	android:process
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:475:13-43
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:474:13-63
+activity#com.igexin.getuiext.activity.GetuiExtActivity
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:477:9-484:75
+	android:process
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:482:13-43
+	android:excludeFromRecents
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:480:13-46
+	android:exported
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:481:13-37
+	android:configChanges
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:479:13-72
+	android:theme
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:484:13-72
+	android:taskAffinity
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:483:13-62
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:478:13-73
+receiver#com.igexin.getuiext.service.PayloadReceiver
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:486:9-493:20
+	android:exported
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:488:13-37
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:487:13-71
+intent-filter#com.igexin.sdk.action.0YiYoEgQtC98giwoNQnrv+com.igexin.sdk.action.7fjUl2Z3LH6xYy7NQK4ni4
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:489:13-492:29
+action#com.igexin.sdk.action.7fjUl2Z3LH6xYy7NQK4ni4
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:490:17-87
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:490:25-84
+service#com.igexin.getuiext.service.GetuiExtService
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:495:9-497:46
+	android:process
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:497:13-43
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:496:13-71
+service#com.v2gogo.project.utils.common.apk.DownloadApkService
+ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:498:9-500:40
+	android:exported
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:500:13-37
+	android:name
+		ADDED from /Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/AndroidManifest.xml:499:13-82

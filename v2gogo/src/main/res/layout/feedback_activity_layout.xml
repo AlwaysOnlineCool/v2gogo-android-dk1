@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_common_action_bar" >
+
+        <ImageButton
+            style="@style/style_common_action_back"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            style="@style/style_common_action_bar_title"
+            android:text="@string/profile_setting_feedback" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/feedback_activity_edittext_content"
+        android:layout_width="match_parent"
+        android:layout_height="120dip"
+        android:background="@drawable/selector_top_skin_listview_item_drawable"
+        android:gravity="top"
+        android:hint="@string/feedback_edit_hint_tip"
+        android:inputType="none"
+        android:maxLength="100"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip"
+        android:paddingTop="8dip"
+        android:textColor="@color/app_common_black"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/feedback_activity_publish_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginTop="16dip"
+        android:background="@drawable/selector_common_org_btn_drawable"
+        android:text="@string/feedback_confirm_tijiao"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>

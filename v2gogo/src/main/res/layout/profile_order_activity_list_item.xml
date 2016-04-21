@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:paddingBottom="10dip" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_top_skin_listview_item_drawable"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <TextView
+            android:id="@+id/profile_order_activity_list_item_order_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_order_no_tip"
+            android:textColor="@color/app_common_black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/profile_order_activity_list_item_create_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dip"
+            android:text="@string/profile_order_create_time_tip"
+            android:textColor="@color/app_common_black"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_middle_skin_listview_item_drawable"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <ImageView
+            android:id="@+id/profile_order_activity_list_item_goods_thumb"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dip"
+            android:layout_toRightOf="@id/profile_order_activity_list_item_goods_thumb"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/profile_order_activity_list_item_goods_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="金龙鱼"
+                android:textColor="@color/app_common_black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/profile_order_activity_list_item_goods_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="金龙鱼金龙鱼金龙鱼金龙鱼金龙鱼金龙鱼"
+                android:textColor="#696969"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/profile_order_activity_list_item_market_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="￥10000"
+                    android:textColor="@color/action_bar_color"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/profile_order_activity_list_item_gogo_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dip"
+                    android:text="￥10000"
+                    android:textColor="@color/app_common_gray"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_bottom_skin_listview_item_drawable"
+        android:padding="10dip" >
+
+        <LinearLayout
+            android:id="@+id/profile_order_activity_list_item_price_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_order_coin"
+                android:textColor="@color/app_common_black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/profile_order_activity_list_item_buy_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dip"
+                android:text="￥2000"
+                android:textColor="@color/action_bar_color"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_order_activity_list_item_price_layout"
+            android:layout_marginTop="5dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_order_status"
+                android:textColor="@color/app_common_black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/profile_order_activity_list_item_order_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dip"
+                android:text="未支付"
+                android:textColor="@color/action_bar_color"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/profile_order_activity_list_item_pay"
+            android:layout_width="90dip"
+            android:layout_height="38dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_common_org_btn_drawable"
+            android:focusable="false"
+            android:text="@string/profile_pay_tip"
+            android:textColor="@android:color/white"
+            android:textIsSelectable="false"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</LinearLayout>

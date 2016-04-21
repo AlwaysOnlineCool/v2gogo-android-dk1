@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 首页兑换推广位布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/fragment_home_popularize_exchange_first_image"
+            style="@style/style_fragment_home_popularize_horizontal_goods_thumb"
+            android:background="@drawable/shape_shop_gray_border"
+            android:contentDescription="@string/app_name"
+            android:cropToPadding="true"
+            android:paddingRight="0.667dip"
+            android:paddingTop="0.667dip" />
+
+        <ImageView
+            android:id="@+id/fragment_home_popularize_exchange_second_image"
+            style="@style/style_fragment_home_popularize_horizontal_goods_thumb"
+            android:background="@drawable/shape_shop_gray_border"
+            android:contentDescription="@string/app_name"
+            android:cropToPadding="true"
+            android:paddingRight="0.667dip"
+            android:paddingTop="0.667dip" />
+
+        <ImageView
+            android:id="@+id/fragment_home_popularize_exchange_three_image"
+            style="@style/style_fragment_home_popularize_horizontal_goods_thumb"
+            android:background="@drawable/shape_shop_gray_border"
+            android:contentDescription="@string/app_name"
+            android:cropToPadding="true"
+            android:paddingRight="0.667dip"
+            android:paddingTop="0.667dip" />
+
+        <ImageView
+            android:id="@+id/fragment_home_popularize_exchange_four_image"
+            style="@style/style_fragment_home_popularize_horizontal_goods_thumb"
+            android:background="@drawable/shape_shop_gray_border"
+            android:contentDescription="@string/app_name"
+            android:cropToPadding="true"
+            android:paddingRight="0dip"
+            android:paddingTop="0.667dip" />
+    </LinearLayout>
+
+</LinearLayout>

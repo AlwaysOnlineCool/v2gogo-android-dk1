@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/anim/anim_yao_yi_yao_hand.xml",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/anim/anim_yao_yi_yao_hand.xml"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/anim/anim_activity_exit_anim.xml",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/anim/anim_activity_exit_anim.xml"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/anim/dialog_enter.xml",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/anim/dialog_enter.xml"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/anim/anim_photo_preview_exit.xml",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/anim/anim_photo_preview_exit.xml"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/anim/dialog_exit.xml",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/anim/dialog_exit.xml"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/anim/anim_activity_enter_anim.xml",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/anim/anim_activity_enter_anim.xml"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/anim/anim_photo_preview_enter.xml",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/anim/anim_photo_preview_enter.xml"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/anim/anim_shake_result_dialog_out.xml",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/anim/anim_shake_result_dialog_out.xml"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/anim/anim_shake_result_dialog_enter.xml",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/anim/anim_shake_result_dialog_enter.xml"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/anim/anim_from_top_in.xml",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/anim/anim_from_top_in.xml"
+    }
+]

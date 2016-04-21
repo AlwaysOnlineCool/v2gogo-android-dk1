@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_common_action_bar" >
+
+        <ImageButton
+            style="@style/style_common_action_back"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            style="@style/style_common_action_bar_webview_close"
+            android:layout_toRightOf="@+id/common_app_action_bar_back"
+            android:text="关闭"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/webview_title"
+            style="@style/style_common_action_bar_title"
+            android:ellipsize="end"
+            android:maxEms="12"
+            android:singleLine="true" />
+
+        <ImageButton
+            style="@style/style_common_action_webview_share"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <com.v2gogo.project.views.listview.refreshview.PullRefreshListView
+        android:id="@+id/fragment_profile_pull_to_refresh_listview"
+        style="@style/style_common_pull_list_view" />
+
+</LinearLayout>

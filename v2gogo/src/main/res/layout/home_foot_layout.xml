@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <com.v2gogo.project.views.listview.refreshview.PullRefreshListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/home_foot_listview"
+        style="@style/style_common_pull_list_view"
+        android:visibility="visible" />
+
+</LinearLayout>

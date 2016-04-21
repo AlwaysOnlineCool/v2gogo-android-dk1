@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_common_action_bar" >
+
+        <ImageButton
+            style="@style/style_common_action_back"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            style="@style/style_common_action_bar_title"
+            android:text="@string/profile_score" />
+
+        <Button
+            android:id="@+id/profile_score_publish_btn"
+            android:layout_width="75dip"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:text="@string/profile_score_btn"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            tools:ignore="RtlHardcoded" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <View
+            style="@style/style_common_horizontal_line"
+            android:background="#b2b2b2" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp" >
+
+            <RadioGroup
+                android:id="@+id/feeGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:visibility="visible" >
+
+                <RadioButton
+                    android:id="@+id/feerb1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_profile_score_bag"
+                    android:button="@null"
+                    android:drawableBottom="@drawable/selector_profile_score_bad_drawable"
+                    android:drawablePadding="4dp"
+                    android:drawableRight="@drawable/shape_artice_type_bg_drawable"
+                    android:gravity="center"
+                    android:text="差"
+                    android:textColor="#ff333333"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/feerb2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_profile_score_bag"
+                    android:button="@null"
+                    android:drawableBottom="@drawable/selector_profile_score_general_drawable"
+                    android:drawablePadding="4dp"
+                    android:gravity="center"
+                    android:text="一般"
+                    android:textColor="#ff333333"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/feerb3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_profile_score_bag"
+                    android:button="@null"
+                    android:drawableBottom="@drawable/selector_profile_score_satisfied_drawable"
+                    android:drawablePadding="4dp"
+                    android:gravity="center"
+                    android:text="满意"
+                    android:textColor="#ff333333"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/feerb4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_profile_score_bag"
+                    android:button="@null"
+                    android:drawableBottom="@drawable/selector_profile_score_very_good_drawable"
+                    android:drawablePadding="4dp"
+                    android:gravity="center"
+                    android:text="很满意"
+                    android:textColor="#ff333333"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/feerb5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_profile_score_bag"
+                    android:button="@null"
+                    android:drawableBottom="@drawable/selector_profile_score_recommend_drawable"
+                    android:drawablePadding="4dp"
+                    android:gravity="center"
+                    android:text="强烈推荐"
+                    android:textColor="#ff333333"
+                    android:textSize="14sp" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <View
+                        android:layout_width="0.6dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:background="#b2b2b2" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <View
+                        android:layout_width="0.6dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:background="#b2b2b2" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <View
+                        android:layout_width="0.6dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:background="#b2b2b2" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <View
+                        android:layout_width="0.6dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:background="#b2b2b2" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View
+            style="@style/style_common_horizontal_line"
+            android:background="#b2b2b2" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="@style/MyRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:paddingTop="14dp"
+            android:rating="5"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        style="@style/style_common_horizontal_line"
+        android:layout_marginTop="10dp"
+        android:background="#b2b2b2" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white" >
+
+        <EditText
+            android:id="@+id/profile_score_edit_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="top"
+            android:hint="喜欢写评论的都是好同志"
+            android:inputType="textMultiLine"
+            android:maxLength="200"
+            android:padding="8dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/profile_score_watch_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="0/100"
+            android:textColor="@color/action_bar_color"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <View
+        style="@style/style_common_horizontal_line"
+        android:background="#b2b2b2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <ImageView
+                android:id="@+id/imageview1"
+                android:layout_width="0dp"
+                android:layout_height="84dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/score_camare" />
+
+            <ImageView
+                android:id="@+id/imageview2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/score_add"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/imageview3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/score_add"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <ImageView
+                android:id="@+id/imageview4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/score_add"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/imageview5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/score_add"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/imageview6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/score_add"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

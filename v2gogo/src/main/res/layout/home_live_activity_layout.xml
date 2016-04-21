@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <com.v2gogo.project.views.ProgressLayout
+        android:id="@+id/home_live_progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout style="@style/style_common_action_bar" >
+
+                <ImageButton
+                    style="@style/style_common_action_back"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    style="@style/style_common_action_bar_title"
+                    android:text="@string/home_live_video" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/home_live_video_thumb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop" />
+
+                <ImageButton
+                    android:id="@+id/home_live_play_video"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@null"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/details_icon_windowplay_pressed" />
+            </RelativeLayout>
+
+            <AbsoluteLayout
+                android:id="@+id/home_live_webview_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <com.v2gogo.project.views.webview.JsWebview
+                    android:id="@+id/home_live_webview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_x="0.0dip"
+                    android:layout_y="0.0dip"
+                    android:scrollbars="none" />
+            </AbsoluteLayout>
+        </LinearLayout>
+    </com.v2gogo.project.views.ProgressLayout>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_common_action_bar" >
+
+        <ImageButton
+            style="@style/style_common_action_back"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            style="@style/style_common_action_bar_title"
+            android:text="@string/order_seltlement_tip" />
+    </RelativeLayout>
+
+    <com.v2gogo.project.views.scrollview.ReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dip"
+                android:paddingLeft="10dip"
+                android:text="@string/order_pay_method_tip"
+                android:textColor="#696969" />
+
+            <RadioGroup
+                android:id="@+id/order_settlment_online_pay_radiogroup"
+                style="@style/style_list_item_conntainer_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/skin_setting_strip_top_unpressed"
+                android:orientation="vertical" >
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/order_settlment_pay_order"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/selector_common_org_btn_drawable"
+                android:text="@string/order_sure_pay_tip"
+                android:textColor="@android:color/white"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </com.v2gogo.project.views.scrollview.ReboundScrollView>
+
+</LinearLayout>

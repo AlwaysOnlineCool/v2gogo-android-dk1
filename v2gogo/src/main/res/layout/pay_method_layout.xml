@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/order_settlment_online_pay_ali_rb"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:button="@null"
+    android:drawableLeft="@drawable/selector_protocol_and_show_pwd_drawable"
+    android:drawablePadding="15dip"
+    android:gravity="center_vertical|left"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:text="@string/pay_method_ali"
+    android:textColor="#696969"
+    android:textSize="16sp" />

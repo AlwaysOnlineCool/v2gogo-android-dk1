@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:paddingBottom="4.86dip" >
+
+    <FrameLayout
+        android:id="@+id/home_activity_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:visibility="gone" >
+
+        <com.v2gogo.project.views.ADViewPager
+            android:id="@+id/fragment_home_big_photo_display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.v2gogo.project.views.DotViews
+            android:id="@+id/fragment_home_big_photo_dots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_margin="10dip" />
+    </FrameLayout>
+
+    <com.v2gogo.project.views.gridview.MyGridView
+        android:id="@+id/GridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:cacheColorHint="#00000000"
+        android:focusable="false"
+        android:gravity="center"
+        android:horizontalSpacing="4dp"
+        android:listSelector="@color/transparent"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="4dp" />
+
+    <View style="@style/style_common_horizontal_line" />
+
+</LinearLayout>

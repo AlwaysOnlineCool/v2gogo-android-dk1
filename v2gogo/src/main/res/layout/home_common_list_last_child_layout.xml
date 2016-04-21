@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_list_item_conntainer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingBottom="0dip"
+    android:paddingLeft="60.25dip"
+    android:paddingTop="0dip" >
+
+    <TextView
+        android:id="@+id/home_comment_list_last_chind_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="3dip"
+        android:paddingBottom="5.25dip"
+        android:paddingTop="5.25dip"
+        android:textColor="@color/app_common_black"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:id="@+id/home_comment_list_last_child_image_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="8dip" >
+
+        <ImageView
+            android:id="@+id/home_comment_list_last_child_image_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/home_comment_list_last_child_image_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/home_comment_list_last_child_image_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/home_comment_list_last_child_image_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+
+</LinearLayout>

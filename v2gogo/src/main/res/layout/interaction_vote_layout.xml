@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dip"
+    android:background="@android:color/white"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/interaction_vote_option_one_layout"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/interaction_vote_option_textview_one"
+            style="@style/style_interaction_vote_option_title" />
+
+        <Button
+            android:id="@+id/interaction_vote_option_button_one"
+            style="@style/style_interaction_vote_option_button"
+            android:layout_above="@id/interaction_vote_option_textview_one"
+            android:background="@null" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/interaction_vote_option_two_layout"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/interaction_vote_option_textview_two"
+            style="@style/style_interaction_vote_option_title" />
+
+        <Button
+            android:id="@+id/interaction_vote_option_button_two"
+            style="@style/style_interaction_vote_option_button"
+            android:layout_above="@id/interaction_vote_option_textview_two"
+            android:background="@null" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/interaction_vote_option_three_layout"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/interaction_vote_option_textview_three"
+            style="@style/style_interaction_vote_option_title" />
+
+        <Button
+            android:id="@+id/interaction_vote_option_button_three"
+            style="@style/style_interaction_vote_option_button"
+            android:layout_above="@id/interaction_vote_option_textview_three"
+            android:background="@null" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/interaction_vote_option_four_layout"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/interaction_vote_option_textview_four"
+            style="@style/style_interaction_vote_option_title" />
+
+        <Button
+            android:id="@+id/interaction_vote_option_button_four"
+            style="@style/style_interaction_vote_option_button"
+            android:layout_above="@id/interaction_vote_option_textview_four"
+            android:background="@null" />
+    </RelativeLayout>
+
+</LinearLayout>

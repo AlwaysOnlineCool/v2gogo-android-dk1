@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="common_app_action_bar" type="id"/>
+    <item name="common_app_action_bar_back" type="id"/>
+    <item name="common_app_action_bar_text" type="id"/>
+
+    <!-- webview -->
+    <item name="commen_webview_close" type="id"/>
+    <item name="commen_webview_share" type="id"/>
+
+    <!-- refresh -->
+    <item name="gridview" type="id"/>
+    <item name="webview" type="id"/>
+
+</resources>

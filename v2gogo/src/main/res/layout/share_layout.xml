@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_custom_dialog_container_layout" >
+
+    <TextView
+        android:id="@+id/share_layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/please_select_share_tip"
+        android:textColor="@color/app_common_black"
+        android:textSize="15sp" />
+
+    <View
+        style="@style/style_common_horizontal_line"
+        android:layout_marginTop="12dip" />
+
+    <LinearLayout
+        android:id="@+id/share_container_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dip"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/share_to_weixin_friend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="8dip"
+                android:drawableTop="@drawable/share_weixin_f"
+                android:gravity="center_horizontal"
+                android:text="@string/share_weixin_fr"
+                android:textColor="#696969" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/share_to_weixin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="8dip"
+                android:drawableTop="@drawable/share_wenxin"
+                android:gravity="center_horizontal"
+                android:text="@string/share_weixin_tip"
+                android:textColor="#696969" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/share_to_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="8dip"
+                android:drawableTop="@drawable/share_message"
+                android:gravity="center_horizontal"
+                android:text="@string/share_message_tip"
+                android:textColor="#696969"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/share_to_qq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="8dip"
+                android:drawableTop="@drawable/share_qq"
+                android:gravity="center_horizontal"
+                android:text="@string/share_qq_tip"
+                android:textColor="#696969"
+                android:visibility="visible" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/share_to_qzone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawablePadding="8dip"
+        android:drawableTop="@drawable/share_qzone"
+        android:gravity="center_horizontal"
+        android:text="@string/share_qzone_tip"
+        android:textColor="#696969"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/share_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="16dip"
+        android:background="@drawable/selector_common_btn_drawable"
+        android:text="@string/profile_info_cancle"
+        android:textColor="#696969"
+        android:textSize="17sp" />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="vitamio_library_app_name">VitamioLibrary</string>
+    <string name="vitamio_init_decoders">初始化编码…</string>
+    <string name="permission_group_tools_label">Vitamio tools</string>
+    <string name="permission_group_tools_description">接入vitamio包装和资源</string>
+    <string name="permission_receive_messages_label">接收vitamio messages</string>
+    <string name="permission_receive_messages_description">在vitamio broadcasts从服务接收</string>
+    <string name="permission_write_providers_label">写vitamio供应商</string>
+    <string name="permission_write_providers_description">删除，更新或创建新项目Vitamio提供者</string>
+    <string name="VideoView_error_title">对不起，无法播放视频</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">抱歉，这个视频是不适合在该设备上播放</string>
+    <string name="VideoView_error_text_unknown">对不起，无法播放视频</string>
+    <string name="VideoView_error_button">确定</string>
+    <string name="mediacontroller_play_pause">播放／暂停</string>
+
+</resources>

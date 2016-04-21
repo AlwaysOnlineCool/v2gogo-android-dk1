@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_common_action_bar" >
+
+        <ImageButton
+            style="@style/style_common_action_back"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            style="@style/style_common_action_bar_title"
+            android:text="@string/login_account" />
+    </RelativeLayout>
+
+    <com.v2gogo.project.views.scrollview.ReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_bottom_skin_listview_item_drawable"
+                android:orientation="vertical"
+                android:paddingBottom="15dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="15dip" >
+
+                <EditText
+                    android:id="@+id/login_activity_account_name"
+                    style="@style/style_register_and_login_edittext"
+                    android:background="@drawable/selector_common_edit_drawable"
+                    android:hint="@string/login_username_edittext_tip"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/login_activity_account_password"
+                    style="@style/style_register_and_login_edittext"
+                    android:layout_marginTop="12dip"
+                    android:background="@drawable/selector_common_edit_drawable"
+                    android:hint="@string/login_userpass_edittext_tip"
+                    android:inputType="textPassword" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/login_activity_account_login"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/selector_common_org_btn_drawable"
+                android:text="@string/login_account"
+                android:textColor="@android:color/white"
+                android:textSize="17sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="12dip" >
+
+                <Button
+                    android:id="@+id/login_activity_forget_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@null"
+                    android:text="@string/login_forget_password_tip"
+                    android:textColor="#696969"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/login_activity_register_account"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@null"
+                    android:text="@string/login_forget_register_tip"
+                    android:textColor="#696969"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </com.v2gogo.project.views.scrollview.ReboundScrollView>
+
+</LinearLayout>

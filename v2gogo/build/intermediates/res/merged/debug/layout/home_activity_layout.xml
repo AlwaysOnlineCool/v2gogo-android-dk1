@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        style="@style/style_common_action_bar"
+        android:paddingRight="0dip" >
+
+        <ImageButton
+            android:id="@+id/fragment_home_btn_sign"
+            android:layout_width="50dip"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/home_nav_qiandao" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" >
+
+            <TextView
+                android:id="@+id/fragment_home_tv_left_coin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="25dip"
+                android:background="@drawable/home_btn_coinright"
+                android:fadingEdge="none"
+                android:gravity="center"
+                android:minWidth="80dip"
+                android:paddingLeft="20dip"
+                android:textColor="@color/action_bar_color"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/home_btn_coinleft" />
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/fragment_home_ibtn_boaliao"
+            android:layout_width="50dip"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/home_nav_baoliao" />
+    </RelativeLayout>
+
+    <com.v2gogo.project.views.ProgressLayout
+        android:id="@+id/fragment_home_progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.v2gogo.project.views.listview.refreshview.PullRefreshListView
+            android:id="@+id/fragment_home_pull_to_refresh_listview"
+            style="@style/style_common_pull_list_view" />
+    </com.v2gogo.project.views.ProgressLayout>
+
+</LinearLayout>

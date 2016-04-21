@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_concern_rectage_dialog_drawable"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dip"
+        android:layout_marginRight="13dip"
+        android:layout_marginTop="13dip"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="3dip"
+        android:text="@string/update_title_tip"
+        android:textColor="@color/app_common_black"
+        android:textSize="15sp" />
+
+    <View
+        style="@style/style_common_horizontal_line"
+        android:layout_height="1dip"
+        android:layout_marginTop="10dip" />
+
+    <TextView
+        android:id="@+id/app_version_update_dialog_layout_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dip"
+        android:layout_marginRight="13dip"
+        android:layout_marginTop="12dip"
+        android:lineSpacingExtra="5dip"
+        android:textColor="@color/app_common_black"
+        android:textSize="15sp" />
+
+    <View
+        style="@style/style_common_horizontal_line"
+        android:layout_height="1dip"
+        android:layout_marginTop="10dip" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/app_version_update_dialog_layout_left_button"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textColor="@color/app_common_black"
+            android:textSize="15sp" />
+
+        <View
+            style="@style/style_common_vertical_line"
+            android:layout_width="1dip" />
+
+        <Button
+            android:id="@+id/app_version_update_dialog_layout_right_button"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textColor="@color/app_common_black"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

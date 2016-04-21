@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_common_action_bar" >
+
+        <ImageButton
+            style="@style/style_common_action_back"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            style="@style/style_common_action_bar_title"
+            android:text="@string/profile_invite_friend" />
+    </RelativeLayout>
+
+    <com.v2gogo.project.views.scrollview.ReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_top_skin_listview_item_drawable"
+                android:padding="10dip"
+                android:text="@string/profile_invite_friend_prize_tip"
+                android:textColor="@color/app_common_black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/profile_invite_friend_activity_invite_code"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/action_bar_height"
+                android:background="@drawable/selector_bottom_skin_listview_item_drawable"
+                android:padding="10dip"
+                android:textColor="@color/app_common_black"
+                android:textSize="16sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dip" >
+
+                <TextView
+                    android:id="@+id/profile_invite_friend_activity_scan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profile_invite_friend_scan_download_tip"
+                    android:textColor="@color/app_common_black"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="200dip"
+                    android:layout_height="200dip"
+                    android:layout_below="@id/profile_invite_friend_activity_scan"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dip"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/v2gogo" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/profile_invite_friend_activity_confirm_invite"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="10dip"
+                android:background="@drawable/selector_common_org_btn_drawable"
+                android:text="@string/profile_invite_friend_confirm_invite_tip"
+                android:textColor="@android:color/white"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </com.v2gogo.project.views.scrollview.ReboundScrollView>
+
+</LinearLayout>

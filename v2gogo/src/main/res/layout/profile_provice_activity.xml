@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_common_action_bar" >
+
+        <ImageButton
+            style="@style/style_common_action_back"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            style="@style/style_common_action_bar_title"
+            android:text="@string/di_qu" />
+    </RelativeLayout>
+
+    <com.v2gogo.project.views.listview.refreshview.PullRefreshListView
+        android:id="@+id/profile_provoice_pull_to_refresh_listview"
+        style="@style/style_common_pull_list_view" />
+
+</LinearLayout>

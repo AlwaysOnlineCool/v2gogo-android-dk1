@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/exchange_prize_details_temp_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/exchange_prize_details_prize_name"
+        style="@style/style_list_item_title"
+        android:background="@drawable/selector_top_skin_listview_item_drawable"
+        android:gravity="center_vertical"
+        android:padding="10dip" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_bottom_skin_listview_item_drawable"
+        android:padding="10dip" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/exchange_prize_details_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/action_bar_color"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/exchange_prize_details_totle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/app_common_black"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/exchange_prize_details_need_coin"
+                style="@style/style_list_item_title"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dip"
+                android:singleLine="false"
+                android:text="@string/exchange_coin_tip" />
+
+            <TextView
+                android:id="@+id/exchange_prize_details_profile_coin"
+                style="@style/style_list_item_title"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dip"
+                android:singleLine="false" />
+
+            <TextView
+                android:id="@+id/exchange_prize_details_endTime"
+                style="@style/style_list_item_title"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dip"
+                android:singleLine="false" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/exchange_prize_details_exchange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_common_greyselected_selected"
+            android:minHeight="30dip"
+            android:minWidth="80dip"
+            android:text="@string/fragment_exchange_exchange_tip"
+            android:textColor="@color/action_bar_color"
+            android:textSize="15sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/exchange_prize_details_down_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:minHeight="30dip"
+            android:minWidth="80dip"
+            android:textColor="@color/action_bar_color"
+            android:textSize="15sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/exchange_prize_details_sponsor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/style_list_item_title"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dip"
+            android:singleLine="false"
+            android:text="赞助商" />
+
+        <TextView
+            android:id="@+id/exchange_prize_details_sponsor_value"
+            style="@style/style_list_item_title"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dip"
+            android:singleLine="false" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/exchange_prize_details_profile_sellphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/style_list_item_title"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dip"
+            android:singleLine="false"
+            android:text="商家电话" />
+
+        <TextView
+            android:id="@+id/exchange_prize_details_profile_sellphone_value"
+            style="@style/style_list_item_title"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dip"
+            android:singleLine="false" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/exchange_prize_details_jian_jie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:padding="6dip"
+        android:text="简介"
+        android:textColor="@color/app_common_black" />
+
+    <AbsoluteLayout
+        android:id="@+id/exchange_prize_details_prize_webview_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/selector_top_skin_listview_item_drawable" >
+
+        <com.v2gogo.project.views.webview.JsWebview
+            android:id="@+id/exchange_prize_details_prize_webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_x="0.0dip"
+            android:layout_y="0.0dip"
+            android:scrollbars="none" />
+    </AbsoluteLayout>
+
+</LinearLayout>

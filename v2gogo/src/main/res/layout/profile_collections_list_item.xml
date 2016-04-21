@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_list_item_conntainer_layout"
+    android:background="@drawable/selector_top_skin_listview_item_drawable" >
+
+    <ImageView
+        android:id="@+id/profile_collections_liet_item_thumb"
+        style="@style/style_list_item_thumb"
+        android:contentDescription="@string/app_name" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_thumb_width_and_height"
+        android:layout_marginLeft="10dip"
+        android:layout_toRightOf="@id/profile_collections_liet_item_thumb" >
+
+        <TextView
+            android:id="@+id/profile_collections_liet_item_main_title"
+            style="@style/style_list_item_title"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="false" />
+
+        <TextView
+            android:id="@+id/profile_collections_liet_item_sub_title"
+            style="@style/style_list_item_description"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/profile_collections_liet_item_publish_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/app_common_gray"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/vote_option_description_layout_click"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:background="@drawable/selector_top_skin_listview_item_drawable"
+        android:clickable="true"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/vote_description_tip"
+            android:textColor="#696969"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/vote_option_description_layout_arrow"
+            android:layout_width="15dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="right"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/user_icons_forward" />
+    </RelativeLayout>
+
+    <View style="@style/style_common_horizontal_line" />
+
+    <AbsoluteLayout
+        android:id="@+id/vote_option_description_layout_webview_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.v2gogo.project.views.webview.JsWebview
+            android:id="@+id/vote_option_description_layout_webview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0.0dip"
+            android:layout_y="0.0dip"
+            android:scrollbars="none" />
+    </AbsoluteLayout>
+
+</LinearLayout>

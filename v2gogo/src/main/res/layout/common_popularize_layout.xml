@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="4.86dip" >
+
+    <com.v2gogo.project.views.logic.PopularizeDynamicArticeLayout
+        android:id="@+id/common_popularize_artice_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <com.v2gogo.project.views.logic.PopularizeShopLayout
+        android:id="@+id/common_popularize_shop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <com.v2gogo.project.views.logic.PopularizeExchangeLayout
+        android:id="@+id/common_popularize_exchange_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <com.v2gogo.project.views.logic.PopularizeCustomLayout
+        android:id="@+id/common_popularize_custom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    <com.v2gogo.project.views.logic.PopularizeConcerArticeLayout
+        android:id="@+id/common_popularize_concer_foot_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_common_action_bar" >
+
+        <ImageButton
+            style="@style/style_common_action_back"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            style="@style/style_common_action_bar_title"
+            android:text="@string/profile_message" />
+
+        <Button
+            android:id="@+id/profile_message_all_read_btn"
+            android:layout_width="75dip"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:text="@string/all_read_tip"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <com.v2gogo.project.views.ProgressLayout
+        android:id="@+id/profile_message_progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.v2gogo.project.views.listview.refreshview.PullRefreshListView
+            android:id="@+id/profile_message_pull_to_refresh_listview"
+            style="@style/style_common_pull_list_view" />
+    </com.v2gogo.project.views.ProgressLayout>
+
+</LinearLayout>

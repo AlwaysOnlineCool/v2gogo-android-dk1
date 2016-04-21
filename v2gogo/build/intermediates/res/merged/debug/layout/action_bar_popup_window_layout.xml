@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="140dip"
+    android:background="@color/ad_translation_bg_95"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/action_bar_popup_window_home_btn"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:background="@null"
+        android:drawableLeft="@drawable/nav_menu_home"
+        android:drawablePadding="20dip"
+        android:gravity="center_vertical"
+        android:paddingBottom="2dip"
+        android:paddingLeft="15dip"
+        android:paddingRight="50dip"
+        android:paddingTop="2dip"
+        android:text="@string/action_bar_popup_window_home_tip"
+        android:textColor="@android:color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.667dip"
+        android:background="#88898989" />
+
+    <Button
+        android:id="@+id/action_bar_popup_window_categary_btn"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:background="@null"
+        android:drawableLeft="@drawable/ic_share"
+        android:drawablePadding="20dip"
+        android:gravity="center_vertical"
+        android:paddingBottom="2dip"
+        android:paddingLeft="10dip"
+        android:paddingTop="2dip"
+        android:text="@string/share"
+        android:textColor="@android:color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.667dip"
+        android:background="#88898989" />
+
+    <Button
+        android:id="@+id/action_bar_popup_window_collection_btn"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:background="@null"
+        android:drawableLeft="@drawable/nav_menu_collection"
+        android:drawablePadding="20dip"
+        android:gravity="center_vertical"
+        android:paddingBottom="2dip"
+        android:paddingLeft="15dip"
+        android:paddingRight="50dip"
+        android:paddingTop="2dip"
+        android:text="@string/action_bar_popup_window_collection_tip"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_list_item_conntainer_layout"
+    android:background="@android:color/white" >
+
+    <AbsoluteLayout
+        android:id="@+id/topic_details_activity_header_webview_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.v2gogo.project.views.webview.JsWebview
+            android:id="@+id/topic_details_activity_header_webview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0.0dip"
+            android:layout_y="0.0dip"
+            android:scrollbars="none" />
+    </AbsoluteLayout>
+
+</LinearLayout>

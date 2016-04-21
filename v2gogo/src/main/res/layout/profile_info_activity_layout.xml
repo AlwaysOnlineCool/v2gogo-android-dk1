@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_common_action_bar" >
+
+        <ImageButton
+            style="@style/style_common_action_back"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            style="@style/style_common_action_bar_title"
+            android:text="@string/profile_info" />
+    </RelativeLayout>
+
+    <com.v2gogo.project.views.scrollview.ReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/profile_info_user_avatar_layout"
+                style="@style/style_fragment_profile_item_layout"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_top_skin_listview_item_drawable" >
+
+                <TextView
+                    style="@style/style_fragment_profile_item_text"
+                    android:text="@string/profile_avatar" />
+
+                <ImageView
+                    android:id="@+id/profile_info_user_avatar_image"
+                    android:layout_width="70dip"
+                    android:layout_height="70dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="8dip"
+                    android:layout_marginTop="8dip"
+                    android:contentDescription="@string/app_name" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/profile_info_user_nikename_layout"
+                style="@style/style_fragment_profile_item_layout"
+                android:background="@drawable/selector_middle_skin_listview_item_drawable" >
+
+                <TextView
+                    style="@style/style_fragment_profile_item_text"
+                    android:text="@string/profile_nickname" />
+
+                <TextView
+                    android:id="@+id/profile_info_user_nikename"
+                    style="@style/style_fragment_profile_item_text"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/style_fragment_profile_item_layout"
+                android:background="@drawable/selector_middle_skin_listview_item_drawable" >
+
+                <TextView
+                    style="@style/style_fragment_profile_item_text"
+                    android:text="@string/profile_gogo" />
+
+                <TextView
+                    android:id="@+id/profile_info_user_gogo"
+                    style="@style/style_fragment_profile_item_text"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/profile_info_user_gender_layout"
+                style="@style/style_fragment_profile_item_layout"
+                android:background="@drawable/selector_top_skin_listview_item_drawable" >
+
+                <TextView
+                    style="@style/style_fragment_profile_item_text"
+                    android:text="@string/profile_gender" />
+
+                <TextView
+                    android:id="@+id/profile_info_user_gender"
+                    style="@style/style_fragment_profile_item_text"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/profile_info_user_address_layout"
+                style="@style/style_fragment_profile_item_layout"
+                android:background="@drawable/selector_bottom_skin_listview_item_drawable" >
+
+                <TextView
+                    style="@style/style_fragment_profile_item_text"
+                    android:text="@string/profile_area" />
+
+                <TextView
+                    android:id="@+id/profile_info_user_address"
+                    style="@style/style_fragment_profile_item_text"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/style_fragment_profile_item_layout"
+                android:background="@drawable/selector_bottom_skin_listview_item_drawable"
+                android:visibility="gone" >
+
+                <TextView
+                    style="@style/style_fragment_profile_item_text"
+                    android:text="@string/profile_address" />
+
+                <TextView
+                    android:id="@+id/profile_info_user_my_address"
+                    style="@style/style_fragment_profile_item_text"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </com.v2gogo.project.views.scrollview.ReboundScrollView>
+
+</LinearLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingBottom="10dip" >
+
+    <View style="@style/style_common_horizontal_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5.25dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="6dip" >
+
+        <TextView
+            android:id="@+id/order_commit_activity_goods_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="#696969"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/order_commit_activity_goods_post_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/order_commit_activity_goods_price"
+            android:layout_marginTop="5dip"
+            android:textColor="#696969"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <View
+        style="@style/style_common_horizontal_line"
+        android:layout_marginTop="8dip" 
+        android:layout_marginBottom="8dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+
+        <com.v2gogo.project.views.logic.CartSteper
+            android:id="@+id/buy_goods_sheet_edit_dialog_cartsteper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dip"
+            android:text="@string/select_num_tip"
+            android:textColor="@color/app_common_black"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <View
+        style="@style/style_common_horizontal_line"
+        android:layout_marginTop="8dip" />
+
+    <LinearLayout
+        style="@style/style_list_item_conntainer_layout"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dip"
+            android:text="@string/pay_method_tip"
+            android:textColor="@color/app_common_black"
+            android:textSize="14sp" />
+
+        <RadioGroup
+            android:id="@+id/order_confirm_activity_footer_radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dip"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/order_confirm_activity_footer_rb_online"
+                android:layout_width="0dip"
+                android:layout_height="@dimen/button_height"
+                android:layout_weight="1"
+                android:background="@drawable/selector_action_sheet_btn_item_drawable"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/pay_method_online"
+                android:textColor="#696969"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/order_confirm_activity_footer_rb_arrive"
+                android:layout_width="0dip"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginLeft="15dip"
+                android:layout_weight="1"
+                android:background="@drawable/selector_action_sheet_btn_item_drawable"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/pay_method_arrive"
+                android:textColor="#696969"
+                android:textSize="15sp" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/order_confirm_activity_footer_online_price_tip"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/commit_order_commit_no_extra_tip"
+                android:textColor="@color/action_bar_color"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/order_confirm_activity_footer_arrive_price_tip"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_marginTop="10dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/action_bar_color"
+                android:textSize="14sp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

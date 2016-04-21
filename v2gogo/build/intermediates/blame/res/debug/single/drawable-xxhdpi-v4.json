@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/skin_setting_strip_top_pressed.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xxhdpi/skin_setting_strip_top_pressed.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/skin_setting_strip_top_unpressed.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xxhdpi/skin_setting_strip_top_unpressed.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/skin_setting_strip_extra_unpressed.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xxhdpi/skin_setting_strip_extra_unpressed.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/skin_setting_strip_bottom_unpressed.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xxhdpi/skin_setting_strip_bottom_unpressed.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/skin_setting_strip_middle_pressed.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xxhdpi/skin_setting_strip_middle_pressed.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/skin_setting_strip_middle_unpressed.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xxhdpi/skin_setting_strip_middle_unpressed.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/skin_setting_strip_bottom_pressed.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xxhdpi/skin_setting_strip_bottom_pressed.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/skin_setting_strip_extra_pressed.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xxhdpi/skin_setting_strip_extra_pressed.png"
+    }
+]

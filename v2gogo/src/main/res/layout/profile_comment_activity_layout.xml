@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <com.v2gogo.project.views.ProgressLayout
+        android:id="@+id/profile_comment_list_progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.v2gogo.project.views.expandablelistview.PullExpandableListview
+            android:id="@+id/profile_comment_list_expandable_listview"
+            style="@style/style_common_pull_expandable_list_view" />
+    </com.v2gogo.project.views.ProgressLayout>
+
+</LinearLayout>

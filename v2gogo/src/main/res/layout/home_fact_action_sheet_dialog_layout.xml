@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_custom_dialog_container_layout" >
+
+    <TextView
+        android:id="@+id/profile_action_sheet_dialog_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/please_upload_fact_tip"
+        android:textColor="@color/app_common_black" />
+
+    <Button
+        android:id="@+id/profile_action_sheet_dialog_first_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/selector_action_sheet_btn_item_drawable"
+        android:text="@string/profile_info_camera"
+        android:textColor="#696969"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/profile_action_sheet_dialog_second_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/selector_action_sheet_btn_item_drawable"
+        android:text="@string/profile_info_album"
+        android:textColor="#696969"
+        android:textSize="17sp" />
+    <Button
+        android:id="@+id/profile_action_sheet_dialog_third_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/selector_action_sheet_btn_item_drawable"
+        android:text="@string/profile_info_video"
+        android:textColor="#696969"
+        android:textSize="17sp" />
+    <Button
+        android:id="@+id/profile_action_sheet_dialog_fourth_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/selector_action_sheet_btn_item_drawable"
+        android:text="@string/profile_info_local_video"
+        android:textColor="#696969"
+        android:textSize="17sp" />
+    <Button
+        android:id="@+id/profile_action_sheet_dialog_fifth_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/selector_action_sheet_btn_item_drawable"
+        android:text="@string/profile_info_voice"
+        android:textColor="#696969"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/profile_action_sheet_dialog_cancle_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/selector_common_btn_drawable"
+        android:text="@string/profile_info_cancle"
+        android:textColor="#696969"
+        android:textSize="17sp" />
+
+</LinearLayout>

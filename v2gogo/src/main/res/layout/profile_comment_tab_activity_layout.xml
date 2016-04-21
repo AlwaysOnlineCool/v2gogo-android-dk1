@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" >
+            </TabWidget>
+
+            <RelativeLayout style="@style/style_common_action_bar" >
+
+                <ImageButton
+                    style="@style/style_common_action_back"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    style="@style/style_common_action_bar_title"
+                    android:text="@string/profile_comment" />
+            </RelativeLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <RadioGroup
+                    android:id="@+id/profile_comment_tab_rg"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/tab_bar_height"
+                    android:layout_gravity="center_vertical"
+                    android:background="@android:color/white"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/profile_comment_tab_reply_me_rb"
+                        style="@style/style_common_radion_button_text"
+                        android:checked="true"
+                        android:text="@string/reply_me_tip" />
+
+                    <RadioButton
+                        android:id="@+id/profile_comment_tab_my_comment_rb"
+                        style="@style/style_common_radion_button_text"
+                        android:text="@string/profile_comment" />
+                </RadioGroup>
+
+                <View
+                    style="@style/style_common_horizontal_line"
+                    android:layout_gravity="bottom"
+                    android:background="#b2b2b2" />
+
+                <ImageView
+                    android:id="@+id/profile_comment_tab_comment_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="matrix"
+                    android:src="@drawable/common_ui_popup_titleline" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1" >
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/webview_activity_webview_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <com.v2gogo.project.views.webview.ProgressWebView
+        android:id="@+id/webview_activity_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="0.0dip"
+        android:layout_y="0.0dip"
+        android:scrollbars="none" />
+
+</AbsoluteLayout>

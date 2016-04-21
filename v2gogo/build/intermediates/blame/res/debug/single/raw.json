@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/raw/shake_sound_male.mp3",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/raw/shake_sound_male.mp3"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/raw/sample_photo.jpg",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/raw/sample_photo.jpg"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/raw/libarm.so",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/exploded-aar/v2gogo-android/initActivity/unspecified/res/raw/libarm.so"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/raw/shake_nomatch.mp3",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/raw/shake_nomatch.mp3"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/raw/shake_match.mp3",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/raw/shake_match.mp3"
+    }
+]

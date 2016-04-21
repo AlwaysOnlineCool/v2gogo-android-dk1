@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_list_item_conntainer_layout"
+    android:background="@drawable/selector_top_skin_listview_item_drawable"
+    android:descendantFocusability="blocksDescendants" >
+
+    <ImageView
+        android:id="@+id/profile_prize_list_item_thumb"
+        style="@style/style_list_item_thumb"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/profile_prize_list_yet_completed"
+        android:layout_width="@dimen/list_thumb_width_and_height"
+        android:layout_height="@dimen/list_thumb_width_and_height"
+        android:layout_alignBottom="@id/profile_prize_list_item_thumb"
+        android:layout_alignLeft="@id/profile_prize_list_item_thumb"
+        android:layout_alignRight="@id/profile_prize_list_item_thumb"
+        android:layout_alignTop="@id/profile_prize_list_item_thumb"
+        android:background="@drawable/shape_shop_yet_completed_drawable"
+        android:gravity="center"
+        android:text="@string/prize_yet_complete_tip"
+        android:textColor="@android:color/white"
+        android:textSize="17sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_thumb_width_and_height"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:layout_toRightOf="@id/profile_prize_list_item_thumb" >
+
+        <RelativeLayout
+            android:id="@+id/profile_prize_list_item_main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" >
+
+            <TextView
+                android:id="@+id/profile_prize_list_item_main_title"
+                style="@style/style_list_item_title"
+                android:layout_width="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dip" />
+
+            <Button
+                android:id="@+id/profile_prize_list_item_ibtn_exchange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:focusable="false"
+                android:minWidth="62dip"
+                android:textColor="@color/white"
+                android:background="@drawable/selector_common_btn_drawable"
+                android:textIsSelectable="false"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/profile_prize_list_item_sub_title"
+            style="@style/style_list_item_description"
+            android:layout_centerVertical="true"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/profile_prize_list_item_write_ibtn_exchange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn_common_greyselected_selected"
+            android:focusable="false"
+            android:minWidth="62dip"
+            android:text="写评论"
+            android:textColor="@color/action_bar_color"
+            android:textIsSelectable="false"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/profile_prize_list_item_date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/app_common_gray"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

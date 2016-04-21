@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_common_action_bar" >
+
+        <ImageButton
+            style="@style/style_common_action_back"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            style="@style/style_common_action_bar_title"
+            android:text="@string/profile_order" />
+    </RelativeLayout>
+
+    <com.v2gogo.project.views.ProgressLayout
+        android:id="@+id/profile_order_progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.v2gogo.project.views.expandablelistview.PullExpandableListview
+            android:id="@+id/profile_order_pull_to_refresh_expandablelistview"
+            style="@style/style_common_pull_expandable_list_view" />
+    </com.v2gogo.project.views.ProgressLayout>
+
+</LinearLayout>

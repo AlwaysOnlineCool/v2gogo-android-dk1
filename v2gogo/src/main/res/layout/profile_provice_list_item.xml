@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/fragment_profile_item_height"
+    android:background="@drawable/selector_top_skin_listview_item_drawable"
+    android:paddingLeft="15dip" >
+
+    <TextView
+        android:id="@+id/profile_pro_text"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/fragment_profile_item_height"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:textColor="@color/app_common_black"
+        android:textSize="16sp" />
+
+</LinearLayout>

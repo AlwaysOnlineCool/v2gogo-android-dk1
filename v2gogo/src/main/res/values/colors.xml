@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="window_background_color">#ffffff</color>
+    <color name="black_translucent">#00000000</color>
+    <color name="app_color">#eeeeee</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="card_background">#ffffff</color>
+    <color name="card_shadow">#10000000</color>
+    <color name="lite_blue">#ff359ff2</color>
+    <color name="window_background">#00000000</color>
+    <color name="action_bar_color">#FFff5a00</color>
+    <color name="status_bar_color">#FFff5a00</color>
+    <color name="app_common_black">#101010</color>
+    <color name="app_common_gray">#878787</color>
+    <color name="profile_phone">#BCBCBC</color>
+    <!-- 广告页透明背景 -->
+    <color name="ad_translation_bg_95">#95000000</color>
+
+</resources>

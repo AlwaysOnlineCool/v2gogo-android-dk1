@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/common_stepper_reduce_ibtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_cart_product_reduce_drawable"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/common_stepper_content_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_numberbg"
+        android:gravity="center"
+        android:minWidth="40dip"
+        android:textColor="@color/app_common_gray"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/common_stepper_add_ibtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_cart_product_add_drawable"
+        android:contentDescription="@string/app_name" />
+
+</LinearLayout>

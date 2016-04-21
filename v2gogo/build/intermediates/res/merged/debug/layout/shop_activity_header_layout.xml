@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <FrameLayout
+        android:id="@+id/shop_activity_header_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:visibility="gone" >
+
+        <com.v2gogo.project.views.ADViewPager
+            android:id="@+id/shop_activity_header_big_photo_display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.v2gogo.project.views.DotViews
+            android:id="@+id/shop_activity_header_big_photo_dots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_margin="10dip" />
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_list_item_conntainer_layout"
+    android:background="@drawable/selector_top_skin_listview_item_drawable"
+    android:paddingRight="0dip" >
+
+    <ImageView
+        android:id="@+id/activity_concern_article_thumb"
+        style="@style/style_list_item_thumb"
+        android:contentDescription="@string/app_name" />
+
+    <ImageView
+        android:id="@+id/activity_concern_article_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/activity_concern_article_thumb"
+        android:layout_alignLeft="@id/activity_concern_article_thumb"
+        android:layout_marginBottom="6dip"
+        android:layout_marginLeft="6dip"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/comm_topic_video" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_thumb_width_and_height"
+        android:layout_marginLeft="10dip"
+        android:layout_toRightOf="@id/activity_concern_article_thumb" >
+
+        <TextView
+            android:id="@+id/activity_concern_article_main_title"
+            style="@style/style_list_item_home_title"
+            android:layout_alignParentTop="true" 
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/activity_concern_article_sub_title"
+            style="@style/style_list_item_description"
+            android:visibility="gone"
+            android:layout_centerVertical="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/activity_concern_article_time"
+                style="@style/style_fragment_home_popularize_artice_date"
+                android:layout_width="0dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/activity_concern_article_sub_brower"
+                style="@style/style_fragment_home_popularize_artice_brower"
+                android:drawableLeft="@drawable/scan_icon"
+                android:drawablePadding="2dip" />
+
+            <TextView
+                android:id="@+id/activity_concern_article_type"
+                style="@style/style_fragment_home_popularize_artice_detail_type" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

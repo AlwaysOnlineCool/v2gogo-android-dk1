@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <View style="@style/style_common_horizontal_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5.25dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="6dip" >
+
+        <TextView
+            android:id="@+id/order_details_activity_goods_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="#696969"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/order_details_activity_goods_post_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/order_details_activity_goods_price"
+            android:layout_marginTop="5dip"
+            android:textColor="#696969"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/order_details_activity_goods_extra_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/order_details_activity_goods_post_price"
+            android:layout_marginTop="5dip"
+            android:textColor="#696969"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <View
+        style="@style/style_common_horizontal_line"
+        android:layout_marginTop="8dip" />
+
+    <TextView
+        android:id="@+id/order_details_activity_footer_receiver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="6dip"
+        android:textColor="@color/app_common_black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/order_details_activity_footer_contact_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="6dip"
+        android:textColor="@color/app_common_black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/order_details_activity_footer_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="6dip"
+        android:textColor="@color/app_common_black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/order_details_activity_footer_pay_method"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="6dip"
+        android:layout_marginBottom="10dip"
+        android:textColor="@color/app_common_black"
+        android:textSize="15sp" />
+
+</LinearLayout>

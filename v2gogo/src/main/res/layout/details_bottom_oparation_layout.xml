@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <View
+        style="@style/style_common_horizontal_line"
+        android:background="#b2b2b2" />
+
+    <LinearLayout
+        style="@style/style_list_item_conntainer_layout"
+        android:layout_height="45dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/details_bottom_operation_layout_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_action_comment_normal" />
+
+            <TextView
+                android:id="@+id/details_bottom_operation_layout_comment_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/details_bottom_operation_layout_comment"
+                android:layout_marginRight="-8dip"
+                android:background="@color/action_bar_color"
+                android:paddingLeft="1dip"
+                android:paddingRight="1dip"
+                android:minWidth="17dip"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/details_bottom_operation_layout_collections"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:background="@null"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_action_favor_normal" />
+
+        <ImageButton
+            android:id="@+id/details_bottom_operation_layout_share"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dip"
+            android:layout_weight="0.8"
+            android:background="@null"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_action_repost_normal" />
+
+        <View
+            style="@style/style_common_vertical_line"
+            android:layout_height="28dip"
+            android:layout_gravity="center_vertical"
+            android:background="#b2b2b2" />
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1.4" >
+
+            <Button
+                android:id="@+id/details_bottom_operation_layout_write"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:drawableLeft="@drawable/ic_action_write_normal"
+                android:drawablePadding="5dip"
+                android:gravity="center_vertical"
+                android:text="@string/write_comments_tip"
+                android:textColor="#696969"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

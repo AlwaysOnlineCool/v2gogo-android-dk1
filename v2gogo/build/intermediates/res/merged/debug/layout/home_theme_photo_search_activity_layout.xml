@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        style="@style/style_common_action_bar"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <Button
+            android:id="@+id/home_theme_photo_cancel_search_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:text="@string/cancel_search_tip"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/home_theme_photo_search_input"
+            style="@style/style_register_and_login_edittext"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/home_theme_photo_cancel_search_btn"
+            android:drawableLeft="@drawable/ic_search_icon"
+            android:ellipsize="end"
+            android:hint="@string/input_sn_search_tip"
+            android:imeOptions="actionSearch"
+            android:minHeight="32dip"
+            android:paddingBottom="0dip"
+            android:paddingLeft="10dip"
+            android:paddingTop="0dip"
+            android:singleLine="true"
+            android:textColor="@color/app_common_black"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <com.v2gogo.project.views.ProgressLayout
+        android:id="@+id/home_theme_photo_search_progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.v2gogo.project.views.listview.refreshview.PullRefreshListView
+            android:id="@+id/home_theme_photo_search_pull_list_view"
+            style="@style/style_common_pull_list_view" />
+    </com.v2gogo.project.views.ProgressLayout>
+
+</LinearLayout>

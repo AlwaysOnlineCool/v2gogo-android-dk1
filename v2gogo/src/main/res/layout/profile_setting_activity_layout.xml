@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_common_action_bar" >
+
+        <ImageButton
+            style="@style/style_common_action_back"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            style="@style/style_common_action_bar_title"
+            android:text="@string/profile_setting" />
+    </RelativeLayout>
+
+    <com.v2gogo.project.views.scrollview.ReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/style_fragment_profile_setting_tip"
+                android:text="@string/setting_account" />
+
+            <RelativeLayout
+                android:id="@+id/profile_setting_modify_password_layout"
+                style="@style/style_fragment_profile_item_layout"
+                android:background="@drawable/selector_bottom_skin_listview_item_drawable" >
+
+                <TextView
+                    style="@style/style_fragment_profile_item_text"
+                    android:text="@string/profile_setting_modify_pwd" />
+            </RelativeLayout>
+
+            <TextView
+                style="@style/style_fragment_profile_setting_tip"
+                android:text="@string/push_setting" />
+
+            <RelativeLayout
+                style="@style/style_fragment_profile_item_layout"
+                android:background="@drawable/selector_top_skin_listview_item_drawable" >
+
+                <TextView
+                    style="@style/style_fragment_profile_item_text"
+                    android:text="@string/profile_setting_push_ok" />
+
+                <CheckBox
+                    android:id="@+id/news_info_push_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/selector_setting_checkbox_drawable"
+                    android:button="@null"
+                    android:checked="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/style_fragment_profile_item_layout"
+                android:background="@drawable/selector_bottom_skin_listview_item_drawable" >
+
+                <TextView
+                    style="@style/style_fragment_profile_item_text"
+                    android:text="@string/profile_setting_push_sound" />
+
+                <CheckBox
+                    android:id="@+id/news_info_voice_push_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/selector_setting_checkbox_drawable"
+                    android:button="@null"
+                    android:checked="true" />
+            </RelativeLayout>
+
+            <TextView
+                style="@style/style_fragment_profile_setting_tip"
+                android:text="@string/content_setting" />
+
+            <RelativeLayout
+                android:id="@+id/profile_setting_clear_cache_layout"
+                style="@style/style_fragment_profile_item_layout"
+                android:background="@drawable/selector_middle_skin_listview_item_drawable" >
+
+                <TextView
+                    style="@style/style_fragment_profile_item_text"
+                    android:text="@string/profile_setting_clear_cache" />
+
+                <TextView
+                    android:id="@+id/profile_setting_cache_size"
+                    style="@style/style_fragment_profile_item_text"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/fragment_profile_padding_right"
+                    android:textColor="@color/action_bar_color"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <TextView
+                style="@style/style_fragment_profile_setting_tip"
+                android:text="@string/product_setting" />
+
+            <RelativeLayout
+                android:id="@+id/profile_setting_about_us_layout"
+                style="@style/style_fragment_profile_item_layout"
+                android:background="@drawable/selector_top_skin_listview_item_drawable" >
+
+                <TextView
+                    style="@style/style_fragment_profile_item_text"
+                    android:text="@string/profile_setting_about_us" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/profile_setting_feedback_layout"
+                style="@style/style_fragment_profile_item_layout"
+                android:background="@drawable/selector_middle_skin_listview_item_drawable" >
+
+                <TextView
+                    style="@style/style_fragment_profile_item_text"
+                    android:text="@string/profile_setting_feedback" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/profile_setting_pay_layout"
+                style="@style/style_fragment_profile_item_layout"
+                android:background="@drawable/selector_middle_skin_listview_item_drawable" >
+
+                <TextView
+                    style="@style/style_fragment_profile_item_text"
+                    android:text="@string/profile_setting_pay" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/profile_setting_version_update_layout"
+                style="@style/style_fragment_profile_item_layout"
+                android:background="@drawable/selector_bottom_skin_listview_item_drawable" >
+
+                <TextView
+                    style="@style/style_fragment_profile_item_text"
+                    android:text="@string/profile_setting_version_update" />
+
+                <ImageView
+                    android:id="@+id/profile_setting_update_version_new_icon"
+                    style="@style/style_fragment_profile_item_text"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/fragment_profile_padding_right"
+                    android:background="@drawable/user_icons_new"
+                    android:contentDescription="@string/app_name"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/profile_setting_logout_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginBottom="50dip"
+                android:layout_marginLeft="@dimen/fragment_profile_padding_left"
+                android:layout_marginRight="@dimen/fragment_profile_padding_right"
+                android:layout_marginTop="15dip"
+                android:background="@drawable/selector_common_org_btn_drawable"
+                android:text="@string/profile_setting_loginout"
+                android:textColor="@android:color/white"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </com.v2gogo.project.views.scrollview.ReboundScrollView>
+
+</LinearLayout>

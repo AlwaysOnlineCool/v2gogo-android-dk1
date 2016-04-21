@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dip" >
+
+    <FrameLayout
+        android:id="@+id/home_v2gogo_interaction_header_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.v2gogo.project.views.ADViewPager
+            android:id="@+id/home_v2gogo_interaction_header_big_photo_display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.v2gogo.project.views.DotViews
+            android:id="@+id/home_v2gogo_interaction_header_big_photo_dots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_margin="10dip" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="7.5dip"
+        android:paddingTop="7.5dip" >
+
+        <TextView
+            android:id="@+id/home_v2gogo_header_jiang_item"
+            style="@style/style_fragment_home_header_item"
+            android:drawableTop="@drawable/v2gogo_icons_hudongyindajiang"
+            android:text="@string/home_v2gogo_dajiang" />
+
+        <TextView
+            android:id="@+id/home_v2gogo_header_registration_item"
+            style="@style/style_fragment_home_header_item"
+            android:drawableTop="@drawable/v2gogo_icons_woyaobaoming"
+            android:text="@string/home_v2gogo_registration" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_common_action_bar" >
+
+        <ImageButton
+            style="@style/style_common_action_back"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            style="@style/style_common_action_bar_title"
+            android:text="@string/register_account" />
+    </RelativeLayout>
+
+    <com.v2gogo.project.views.scrollview.ReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarThumbVertical="@drawable/shape_scroll_thumb_drawable" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_bottom_skin_listview_item_drawable"
+                android:orientation="vertical"
+                android:paddingBottom="15dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="15dip" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/account_verification_code_phone_no"
+                        style="@style/style_register_and_login_edittext"
+                        android:layout_width="0dip"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_common_edit_drawable"
+                        android:hint="@string/please_input_you_phone_tip"
+                        android:inputType="number" />
+
+                    <Button
+                        android:id="@+id/account_verification_code_get_check_code"
+                        android:layout_width="120dip"
+                        android:layout_height="@dimen/edittext_height"
+                        android:layout_marginLeft="12dip"
+                        android:background="@drawable/selector_common_btn_drawable"
+                        android:text="@string/get_check_code_tip"
+                        android:textColor="@color/app_common_black"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/account_verification_code_verification_code"
+                    style="@style/style_register_and_login_edittext"
+                    android:layout_marginTop="12dip"
+                    android:background="@drawable/selector_common_edit_drawable"
+                    android:hint="@string/please_input_check_code_tip"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/account_verification_code_next_step"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/selector_common_org_btn_drawable"
+                android:text="@string/please_next_step_tip"
+                android:textColor="@android:color/white"
+                android:textSize="17sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dip" >
+
+                <CheckBox
+                    android:id="@+id/account_verification_code_check_box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/selector_protocol_and_show_pwd_drawable" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dip"
+                    android:text="@string/protocol_wo_accept_tip"
+                    android:textColor="@color/app_common_black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/account_verification_protocol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/v2gogo_protocol_tip"
+                    android:textColor="@color/action_bar_color"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.v2gogo.project.views.scrollview.ReboundScrollView>
+
+</LinearLayout>

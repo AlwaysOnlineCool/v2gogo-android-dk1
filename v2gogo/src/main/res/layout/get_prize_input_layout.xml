@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:paddingTop="12dip"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/get_prize_input_number"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_marginLeft="12dip"
+        android:layout_marginRight="12dip"
+        android:paddingLeft="12dip"
+        android:textSize="15sp"
+        android:background="@drawable/selector_common_edit_drawable"
+        android:hint="@string/delete_prize_tip"
+        android:inputType="number" />
+
+</LinearLayout>

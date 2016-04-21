@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:paddingBottom="3dip"
+    android:paddingLeft="6dip"
+    android:paddingRight="6dip"
+    android:paddingTop="3dip" >
+
+    <LinearLayout
+        android:id="@+id/shop_gridview_item_goods_layout_one"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/shop_gridview_item_goods_thumb_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/shop_gridview_item_goods_yet_completed_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_shop_grid_yet_completed_drawable"
+                android:gravity="center"
+                android:text="@string/shop_yet_completed_tip"
+                android:textColor="@android:color/white"
+                android:textSize="17sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/shop_gridview_item_goods_name_one"
+            style="@style/style_list_item_title"
+            android:layout_margin="3dip"
+            android:gravity="center_vertical"
+            android:maxLines="2"
+            android:minHeight="40dip"
+            android:singleLine="false" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:paddingBottom="5dip" >
+
+            <TextView
+                android:id="@+id/shop_gridview_item_goods_price_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="@color/action_bar_color"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/shop_gridview_item_goods_sell_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textColor="#696969"
+                android:textSize="13sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/shop_gridview_item_goods_layout_two"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dip"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/shop_gridview_item_goods_thumb_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/shop_gridview_item_goods_yet_completed_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_shop_grid_yet_completed_drawable"
+                android:gravity="center"
+                android:text="@string/shop_yet_completed_tip"
+                android:textColor="@android:color/white"
+                android:textSize="17sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/shop_gridview_item_goods_name_two"
+            style="@style/style_list_item_title"
+            android:layout_margin="3dip"
+            android:gravity="center_vertical"
+            android:maxLines="2"
+            android:minHeight="40dip"
+            android:singleLine="false" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:paddingBottom="5dip" >
+
+            <TextView
+                android:id="@+id/shop_gridview_item_goods_price_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="@color/action_bar_color"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/shop_gridview_item_goods_sell_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textColor="#696969"
+                android:textSize="13sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

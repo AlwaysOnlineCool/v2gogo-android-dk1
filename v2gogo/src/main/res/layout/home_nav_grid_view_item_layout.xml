@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/home_header_nav_img"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/home_btn_yaoyiyao" />
+
+    <TextView
+        android:id="@+id/home_fragment_shake_item"
+        style="@style/style_fragment_home_header_nav_item"
+        android:maxLength="5"
+        android:layout_marginTop="4dp"
+        android:text="@string/home_shake" />
+
+</LinearLayout>

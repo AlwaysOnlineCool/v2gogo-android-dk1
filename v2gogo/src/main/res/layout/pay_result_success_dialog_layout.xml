@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_concern_rectage_dialog_drawable"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/pay_result_success_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_concern_rectage_pay_success_title_drawable"
+        android:gravity="center"
+        android:minHeight="40dip"
+        android:text="@string/order_pay_success_title_tip"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/pay_result_success_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:minHeight="40dip"
+        android:text="@string/order_pay_success_tip"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:paddingBottom="20dip" >
+
+        <Button
+            android:id="@+id/pay_result_success_continue_shop_btn"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginLeft="20dip"
+            android:layout_weight="1"
+            android:background="@drawable/selector_common_red_btn_drawable"
+            android:text="@string/order_pay_continue_shopping_tip"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/pay_result_success_look_order_btn"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="20dip"
+            android:layout_weight="1"
+            android:background="@drawable/selector_common_org_btn_drawable"
+            android:text="@string/order_pay_look_order_tip"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

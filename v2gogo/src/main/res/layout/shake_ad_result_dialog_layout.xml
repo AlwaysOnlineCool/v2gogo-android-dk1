@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" >
+
+        <RelativeLayout
+            android:id="@+id/shake_ad_result_dialog_layout_goods_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/yaoyaole_bg_frame2" >
+
+            <ImageView
+                android:id="@+id/shake_ad_result_dialog_layout_goods_thumb"
+                android:layout_width="190dip"
+                android:layout_height="190dip"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/shape_shake_result_image_border"
+                android:contentDescription="@string/app_name"
+                android:cropToPadding="true"
+                android:padding="10dip"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/shake_ad_result_dialog_layout_goods_name"
+                android:layout_width="220dip"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/shake_ad_result_dialog_layout_goods_thumb"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:gravity="center"
+                android:padding="10dip"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/shake_ad_result_dialog_layout_goods_flag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/yaoyaole_icons_flag" />
+
+        <ImageView
+            android:id="@+id/shake_ad_result_dialog_layout_shake_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/yaoyaole_icons_weizhongjiang" />
+
+        <ImageButton
+            android:id="@+id/shake_ad_result_dialog_layout_btn_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="14dp"
+            android:layout_toRightOf="@+id/shake_ad_result_dialog_layout_shake_result"
+            android:background="@null"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/yaoyaole_btn_close" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="16dip" >
+
+    <RelativeLayout
+        android:id="@+id/fragment_profile_footer_invite_friend_layout"
+        style="@style/style_fragment_profile_item_layout"
+        android:background="@drawable/selector_top_skin_listview_item_drawable" >
+
+        <TextView
+            style="@style/style_fragment_profile_item_text"
+            android:drawableLeft="@drawable/user_icons_invitation"
+            android:text="@string/profile_invite_friend" />
+
+        <ImageView
+            style="@style/style_fragment_profile_item_arrow"
+            android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_profile_footer_callservice_layout"
+        style="@style/style_fragment_profile_item_layout"
+        android:background="@drawable/selector_middle_skin_listview_item_drawable" >
+
+        <TextView
+            android:id="@+id/service_phone_id"
+            style="@style/style_fragment_profile_item_text"
+            android:drawableLeft="@drawable/user_icons_kefu"
+            android:text="@string/call_phone_tip" />
+
+        <TextView
+            android:id="@+id/profile_service_phone_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="20dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/profile_phone"
+            android:textSize="16sp" />
+
+        <ImageView
+            style="@style/style_fragment_profile_item_arrow"
+            android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_profile_footer_bussiness_layout"
+        style="@style/style_fragment_profile_item_layout"
+        android:background="@drawable/selector_middle_skin_listview_item_drawable" >
+
+        <TextView
+            style="@style/style_fragment_profile_item_text"
+            android:drawableLeft="@drawable/user_icons_publish"
+            android:text="@string/bussiness_tip" />
+
+        <ImageView
+            style="@style/style_fragment_profile_item_arrow"
+            android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_profile_footer_setting_layout"
+        style="@style/style_fragment_profile_item_layout"
+        android:background="@drawable/selector_bottom_skin_listview_item_drawable" >
+
+        <TextView
+            style="@style/style_fragment_profile_item_text"
+            android:drawableLeft="@drawable/user_icons_set"
+            android:text="@string/profile_setting" />
+
+        <ImageView
+            style="@style/style_fragment_profile_item_arrow"
+            android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+
+</LinearLayout>

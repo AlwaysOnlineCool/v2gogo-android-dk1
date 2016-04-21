@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_bottom_skin_listview_item_drawable"
+    android:orientation="vertical"
+    android:paddingBottom="20dip"
+    android:paddingLeft="15dip"
+    android:paddingRight="15dip"
+    android:paddingTop="20dip" >
+
+    <TextView
+        android:id="@+id/share_layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/please_select_one_option_tip"
+        android:textColor="@color/app_common_black"
+        android:textSize="15sp" />
+
+    <View
+        style="@style/style_common_horizontal_line"
+        android:layout_marginTop="12dip" />
+
+    <RadioGroup
+        android:id="@+id/vote_first_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:orientation="horizontal" >
+
+        <com.v2gogo.project.views.logic.VoteBotton
+            android:id="@+id/vote_action_sheet_dialog_option_one"
+            style="@style/style_vote_button_theme" />
+
+        <com.v2gogo.project.views.logic.VoteBotton
+            android:id="@+id/vote_action_sheet_dialog_option_two"
+            style="@style/style_vote_button_theme"
+            android:layout_marginLeft="20dip" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/vote_second_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:orientation="horizontal" >
+
+        <com.v2gogo.project.views.logic.VoteBotton
+            android:id="@+id/vote_action_sheet_dialog_option_three"
+            style="@style/style_vote_button_theme" />
+
+        <com.v2gogo.project.views.logic.VoteBotton
+            android:id="@+id/vote_action_sheet_dialog_option_four"
+            style="@style/style_vote_button_theme"
+            android:layout_marginLeft="20dip" />
+    </RadioGroup>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip" >
+
+        <TextView
+            android:id="@+id/vote_action_sheet_dialog_text_coin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/vote_my_coin_tip"
+            android:textColor="@color/app_common_black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/vote_action_sheet_dialog_vote_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"
+            android:layout_toRightOf="@id/vote_action_sheet_dialog_text_coin"
+            android:lineSpacingExtra="3dip"
+            android:textColor="@color/app_common_black"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/vote_action_sheet_dialog_btn_sure"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="12dip"
+        android:background="@drawable/selector_common_org_btn_drawable"
+        android:text="@string/profile_info_sure"
+        android:textColor="@android:color/white"
+        android:textSize="17sp" />
+
+</LinearLayout>

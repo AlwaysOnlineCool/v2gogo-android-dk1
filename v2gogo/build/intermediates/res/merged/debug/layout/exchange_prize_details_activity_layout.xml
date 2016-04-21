@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_common_action_bar" >
+
+        <ImageButton
+            style="@style/style_common_action_back"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            style="@style/style_common_action_bar_title"
+            android:text="@string/fragment_prize_details_tip" />
+
+        <ImageButton
+            style="@style/style_common_action_webview_share"
+            android:contentDescription="@string/app_name"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <AbsoluteLayout
+        android:id="@+id/exchange_details_activity_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.v2gogo.project.views.webview.ProgressWebView
+            android:id="@+id/exchange_detaile_activity_webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_x="0.0dip"
+            android:layout_y="0.0dip"
+            android:scrollbars="none" />
+    </AbsoluteLayout>
+
+</LinearLayout>

@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">微兔gogo</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">松开后刷新</string>
+    <string name="pull_to_refresh_refreshing_label">刷新\u2026</string>
+    <string name="pull_to_refresh_footer_release_label">松开后加载</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="pull_to_refresh_footer_refreshing_label">加载中\u2026</string>
+    <string name="refresh_pull_to_refresh">下拉可以刷新&#8230;</string>
+    <string name="refresh_release_to_refresh">松开可以刷新&#8230;</string>
+    <string name="refresh_refreshing">正在努力加载中&#8230;</string>
+    <string name="share">分享</string>
+    <string name="deatil">详情</string>
+    <string name="go2_details_tip">查看详情</string>
+    <string name="go2_skip_tip">跳过</string>
+    <string name="vote_success_tip">您已投票成功</string>
+
+    <!-- 注册登录 -->
+    <string name="register_account">注册</string>
+    <string name="login_account">登录</string>
+    <string name="please_input_check_code_tip">请输入您的手机号获取验证码</string>
+    <string name="please_input_invcode_tip">填写邀请码(如果您没有,可以不填)</string>
+    <string name="plaese_input_invite_code_tip">填写邀请码，邀请人和注册人均可获得金币奖励</string>
+    <string name="please_next_step_tip">提交验证码</string>
+    <string name="please_input_hefan_phone">请输入合法的手机号码</string>
+    <string name="please_input_nickname_tip">请输入您的昵称</string>
+    <string name="protocol_wo_accept_tip">我已阅读并接受</string>
+    <string name="v2gogo_protocol_tip">微兔gogo用户协议</string>
+    <string name="please_read_v2gogo_tip">请勾选并仔细阅读v2gogo用户协议</string>
+    <string name="register_invcode_not_exists_tip">您填写的邀请码对应的邀请人不存在</string>
+    <string name="register_device_token_is_empty_tip">设备的唯一标识码为空</string>
+
+    <!-- 登录 -->
+    <string name="login_username_edittext_tip">请输入您的账号</string>
+    <string name="login_userpass_edittext_tip">请输入您的密码</string>
+    <string name="login_forget_password_tip">忘记密码</string>
+    <string name="login_forget_register_tip">免费注册</string>
+    <string name="register_username_edittext_tip">请输入您的手机号</string>
+    <string name="register_userpass_edittext_tip">请输入您的密码</string>
+    <string name="logining_tip">正在登录中&#8230;</string>
+    <string name="registering_tip">正在注册中&#8230;</string>
+    <string name="login_success">登录成功</string>
+    <string name="passeord_diff_tip">两次输入的密码不一致</string>
+    <string name="passeord_empty_tip">密码不能为空</string>
+    <string name="account_register_fail">注册账号失败</string>
+    <string name="input_no_empty_tip">输入的内容不能为空</string>
+    <string name="feedback_upload_success">你的意见已发送成功</string>
+
+    <!-- 主界面 -->
+    <string name="activity_tab_main_home_tip">首页</string>
+    <string name="activity_tab_main_change_tip">兑换专区</string>
+    <string name="activity_tab_main_profile_tip">我的</string>
+    <string name="activity_tab_main_cart_tip">团购</string>
+    <string name="activity_subject_titile">专题</string>
+    <string name="left_prize_num">剩余:%d</string>
+    <string name="total_prize_num">(总数:%d)</string>
+    <string name="prize_description_tip">奖品说明:&#160;&#160;</string>
+    <string name="v2gogo_update_version_tip">微兔gogo</string>
+    <string name="v2gogo_version_downloading_tip">微兔gogo最新版本正在下载中&#8230;</string>
+
+    <!-- 商品详情 -->
+    <string name="goods_details_tip">商品详情</string>
+    <string name="goods_details_buy_tip">立即订购</string>
+    <string name="goods_yet_completed_tip">已经售罄</string>
+    <string name="reply_me_tip">回复我的</string>
+
+    <!-- 首页 -->
+    <string name="home_v2gogo">全民秀</string>
+    <string name="home_all_concern">百姓关注</string>
+    <string name="home_everyday_shop">每日团购</string>
+    <string name="home_live_video">直播</string>
+    <string name="home_shake">摇摇乐</string>
+    <string name="home_talk">百姓话题</string>
+    <string name="more">更多</string>
+    <string name="brower_tip">浏览:</string>
+    <string name="kan_dian">关注</string>
+    <string name="huodong">活动</string>
+    <string name="huati">话题</string>
+    <string name="gogo">gogo</string>
+    <string name="shopping">购物</string>
+    <string name="game">游戏</string>
+    <string name="hudong">互动</string>
+    <string name="today_shake_tip">今日摇奖</string>
+    <string name="user_account_ex_title">账号异常</string>
+    <string name="user_account_exception_tip">用户账号异常,请重新登录</string>
+
+    <!-- 微兔gogo -->
+    <string name="home_v2gogo_dajiang">投票</string>
+    <string name="home_v2gogo_registration">我要报名</string>
+    <string name="home_v2gogo_interaction_share">分享</string>
+    <string name="home_v2gogo_interaction_vote">投票</string>
+    <string name="home_v2gogo_interaction_comment">评论</string>
+    <string name="publish_comment_btn_tip">发布</string>
+    <string name="home_v2gogo_interaction_comment_newest">最新评论</string>
+    <string name="home_v2gogo_interaction_comment_hotest">热门评论</string>
+    <string name="comment_list_input_tip">我也来说两句&#8230;</string>
+    <string name="comment_content_no_empty_tip">评论的内容不能为空</string>
+    <string name="comment_content_uploading_tip">评论正在发送中&#8230;</string>
+    <string name="comment_list_tip">评论列表</string>
+    <string name="vote_coin_cast_tip">每人限投一票,每票消耗%d个金币，赶紧为您支持的队伍投上一票吧!</string>
+    <string name="vote_my_coin_tip">我的金币:&#160;&#160;%d</string>
+    <string name="add_collections_tip">添加收藏成功</string>
+    <string name="you_have_en_coin">您的金币不足哦</string>
+    <string name="you_selcted_option_tip">请先选择您所支持的队伍哦!</string>
+    <string name="interaction_end_tip">互动已结束</string>
+    <string name="interaction_no_start_tip">互动未开始</string>
+    <string name="real_interaction_person_actions">实时参与互动人数</string>
+    <string name="shake_fail_tip">该手机不支持重力感应，无法进行摇摇乐操作!</string>
+    <string name="interfaceion_fail_tip">获取投票信息失败</string>
+    <string name="nin_yet_vote_tip">您已经投过票啦,不可重复投票</string>
+    <string name="not_find_vote_info_tip">没有找到对应的信息</string>
+    <string name="not_find_vote_info_ex">目前没有投票相关的活动</string>
+    <string name="vote_no_support_tip">可用金币不足以完成此次投票</string>
+    <string name="vote_yet_stop_tip">投票已经结束啦，无法再进行投票</string>
+    <string name="vote_fail_tip">投票失败</string>
+    <string name="vote_yet_end_tip">投票已经结束</string>
+    <string name="vote_not_start_tip">投票还没有开始</string>
+
+    <!-- 我的 -->
+    <string name="profile_message">我的消息</string>
+    <string name="profile_prize">我的奖品</string>
+    <string name="profile_quan">我的电子卷</string>
+    <string name="kick_off_title">下线通知</string>
+    <string name="kick_off_tip">您的帐号已在别处登录，如非本人操作，请及时更改密码</string>
+    <string name="kick_off_sure_tip">确定</string>
+    <string name="notice_off_tip">提示</string>
+    <string name="how_get_prize_tip">领取说明</string>
+
+    <!-- 我的订单 -->
+    <string name="profile_order">我的订单</string>
+    <string name="profile_order_no_tip">订单号:&#160;&#160;</string>
+    <string name="profile_order_create_time_tip">下单时间:&#160;&#160;</string>
+    <string name="profile_order_coin">订单金额:&#160;&#160;</string>
+    <string name="profile_order_status">订单状态:</string>
+    <string name="profile_pay_tip">立即支付</string>
+    <string name="profile_collection">我的收藏</string>
+    <string name="profile_publish">我的发布</string>
+    <string name="di_qu">地区</string>
+    <string name="city_tip">城市</string>
+
+    <!-- 个人信息 -->
+    <string name="profile_info">个人信息</string>
+    <string name="profile_avatar">头像</string>
+    <string name="profile_nickname">昵称</string>
+    <string name="profile_gogo">gogo号</string>
+    <string name="profile_address">我的地址</string>
+    <string name="profile_gender">性別</string>
+    <string name="profile_area">所在地点</string>
+    <string name="profile_info_camera">拍照</string>
+    <string name="please_upload_avatar_tip">请上传您的头像</string>
+    <string name="please_upload_fact_tip">请选择您的文件</string>
+    <string name="please_input_you_nickname_tip">请输入您的昵称</string>
+    <string name="profile_info_album">从本地图片选择</string>
+    <string name="profile_info_video">录制视频</string>
+    <string name="profile_info_voice">录制音频</string>
+    <string name="profile_info_local_video">从本地视频选择</string>
+    <string name="profile_info_cancle">取消</string>
+    <string name="profile_info_sure">确认</string>
+    <string name="commit_order_tip">提交订单</string>
+    <string name="profile_info_input_nickname">输入新昵称</string>
+    <string name="please_selection_sex_tip">请选择您的性别</string>
+    <string name="profile_info_gender_man">男</string>
+    <string name="profile_info_gender_felman">女</string>
+    <string name="profile_modify_success">修改成功</string>
+    <string name="profile_modify_avatar_success">修改用户头像成功</string>
+    <string name="profile_modify_avatar_fail">修改用户头像失败</string>
+    <string name="profile_modify_avatar_uploading">正在上传用户头像</string>
+
+    <!-- 邀请好友 -->
+    <string name="profile_invite_friend">邀请好友</string>
+    <string name="bussiness_tip">商务合作</string>
+    <string name="call_phone_tip">呼叫客服</string>
+    <string name="call_phone_tip_value">0851-84727618</string>
+    <string name="profile_invite_friend_prize_tip">奖品说明\n\t\t\t\t“微兔gogo”开展“老带新，送金币”活动，在活动期间，新用户在注册时输入邀请码，老用户和新用户都可以获得10金币的奖励，邀请越多送的越多（最多可以获赠500金币），快来参加吧！</string>
+    <string name="profile_invite_friend_input_code_tip">注册时请输入我的邀请码:\t%s</string>
+    <string name="profile_invite_friend_scan_download_tip">扫描二维码下载:</string>
+    <string name="profile_invite_friend_confirm_invite_tip">确认邀请</string>
+    <string name="profile_comment">我的评论</string>
+    <string name="all_read_tip">一键读取</string>
+    <string name="profile_message_yet_read">已读</string>
+    <string name="profile_message_no_read">未读</string>
+    <!-- 评分 -->
+    <string name="profile_score">评价</string>
+    <string name="profile_score_btn">发布</string>
+    <!-- 设置相关 -->
+    <string name="profile_setting">设置</string>
+    <string name="profile_setting_modify_pwd">修改密码</string>
+    <string name="profile_setting_push_ok">新闻推送</string>
+    <string name="profile_setting_push_sound">新闻推送铃音</string>
+    <string name="profile_setting_clear_cache">清除缓存</string>
+    <string name="profile_clear_cache_tip">正在删除缓存文件&#8230;</string>
+    <string name="clear_cache_message_tip">您确定要删除所有缓存文件吗?</string>
+    <string name="profile_setting_about_us">关于我们</string>
+    <string name="profile_setting_feedback">意见反馈</string>
+    <string name="profile_setting_pay">免责声明</string>
+    <string name="profile_setting_version_update">检查版本</string>
+    <string name="profile_setting_loginout">退出登录</string>
+    <string name="setting_account">账号相关</string>
+    <string name="push_setting">推送设置</string>
+    <string name="content_setting">内容设置</string>
+    <string name="product_setting">产品信息</string>
+    <string name="profile_user_left_coin">可用金币:&#160;&#160;%d</string>
+    <string name="profile_user_total_coin">累积经验:&#160;&#160;%d</string>
+    <string name="profile_user_account">账号:%s</string>
+    <string name="profile_user_logouting_tip">账号正在退出中&#8230;</string>
+    <string name="profile_user_logout_success">退出登录成功</string>
+    <string name="comment_reply_tip">回复:%s</string>
+    <string name="you_sure_cancel_collections_tip">你确定要取消该收藏吗</string>
+    <string name="cancel_collections_tip">取消收藏</string>
+    <string name="cancel_collections_success_tip">取消收藏成功</string>
+    <string name="rank_tip">排行榜</string>
+    <string name="desc_tip">使用说明</string>
+    <string name="message_details_tip">消息详情</string>
+
+    <!-- 关于我们 -->
+    <string name="about_product_tip">产品介绍</string>
+    <string name="about_service_phone_tip">客服电话:&#160;&#160;%s</string>
+    <string name="about_us_version_tip">微兔gogo V%s</string>
+    <string name="about_coryright_tip">Copyright&#160;&#160;2014&#8211;2015&#160;&#160;微兔gogo\nAll&#160;&#160;Rights&#160;&#160;Reserved\n贵州唯捷众品信息技术有限公司</string>
+    <string name="sure_exit_app_tip">您确定要退出该应用程序吗?</string>
+
+    <!-- 意见反馈 -->
+    <string name="feedback_edit_hint_tip">感谢你对微兔gogo手机客户端的意见和建议</string>
+    <string name="feedback_confirm_tijiao">确认提交</string>
+
+    <!-- 兑换专区 -->
+    <string name="fragment_exchange_exchange_tip">立即兑换</string>
+    <string name="fragment_exchange_raise_tip">众筹兑换</string>
+    <string name="fragment_stop_exchange_tip">停止兑换</string>
+    <string name="exchange_prize_title_tip">兑换奖品</string>
+
+    <!-- 奖品详情 -->
+    <string name="fragment_prize_details_tip">奖品详情</string>
+    <string name="exchange_coin_tip">兑换金币值:&#160;&#160;%d</string>
+    <string name="profile_coin_tip">我的金币值:&#160;&#160;%d</string>
+    <string name="seller_name_tip">赞助商家:&#160;&#160;%s</string>
+    <string name="prize_get_method_tip">领取方式:&#160;&#160;%s</string>
+    <string name="seller_phone_number_tip">商家电话:&#160;&#160;%s</string>
+    <string name="service_phone_number">客服电话:&#160;&#160;%s</string>
+    <string name="exchange_prize_success">兑换奖品成功,请到我的奖品查看</string>
+    <string name="exchange_prize_success_title">兑换奖品成功</string>
+    <string name="vote_description_tip">选项介绍</string>
+
+    <!-- 奖品兑换 -->
+    <string name="prize_exchange_tip">奖品兑换</string>
+    <string name="signal_exchange_tip">单件兑换:</string>
+    <string name="exchange_number_tip">兑换数量:</string>
+    <string name="tip">提示</string>
+    <string name="reset_edit_address_tip">编辑地址</string>
+    <string name="reset_edit_address_tip_ex">重新编辑</string>
+
+    <!-- 文章详情 -->
+    <string name="brower_more_comments_tip">查看更多评论</string>
+    <string name="publish_comment_tip">请文明发言，遵守互联网上网公约</string>
+    <string name="publish_confirm_publish">确认发布</string>
+    <string name="publish_comment_success">发表评论成功</string>
+    <string name="upload_photo_tip">上传图片:</string>
+    <string name="upload_photo_tip_ex">上传您要发表的图片</string>
+
+    <!-- 订单详情 -->
+    <string name="order_details_tip">订单详情</string>
+    <string name="cancal_order_tip">取消订单</string>
+    <string name="order_status_tip">订单状态</string>
+
+    <!-- 修改密码 -->
+    <string name="modify_passord_tip">修改密码</string>
+    <string name="input_old_password">输入旧密码</string>
+    <string name="input_new_password_tip">输入新密码(6到16数字或字母组成)</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="confirm_modify">确认修改</string>
+    <string name="modify_password_success_tip">修改密码成功,快去登录您的账号吧</string>
+    <string name="modify_password_success_titie_tip">修改密码成功</string>
+    <string name="password_length_tip">密码必须有6到16数字或字母组成</string>
+    <string name="you_sure_get_prize_tip">您确定要领取该奖品吗</string>
+    <string name="you_get_prize_tip">领取奖品</string>
+
+    <!-- 忘记密码 -->
+    <string name="forget_password_tip">忘记密码</string>
+    <string name="forget_check_code_tip">用户名(手机号)</string>
+    <string name="get_check_code_tip">获取验证码</string>
+    <string name="input_check_code_tip">请输入手机获取的验证码</string>
+    <string name="forget_password_input_new_password_tip">输入新密码</string>
+    <string name="forget_password_confirm_password">确认密码</string>
+    <string name="confirm_modify_pwssaord_tip">更改密码</string>
+    <string name="please_input_you_phone_tip">请输入正确的手机号</string>
+
+    <!-- 签到领金币 -->
+    <string name="sign_days_tip">签到第%d天</string>
+    <string name="sign_yet_get_tip">今日签到可获得</string>
+    <string name="con_sign_tip">连续签到超过7天将每天获得%d金币</string>
+    <string name="sign_tip">签到</string>
+    <string name="coin_tip">金币</string>
+    <string name="top50_tip">TOP50</string>
+    <string name="week_tip">本周</string>
+
+    <!-- v2gogo用户协议 -->
+    <string name="how_get_tip">如何获取</string>
+    <string name="v2gogo_proto_tip">用户协议</string>
+    <string name="action_bar_popup_window_home_tip">首页</string>
+    <string name="action_bar_popup_window_categary_tip">商品分类</string>
+    <string name="action_bar_popup_window_collection_tip">收藏</string>
+
+    <!-- 错误信息提示语 -->
+    <string name="network_error_tip">网络好像出了问题,请检查网络连接</string>
+    <string name="server_error_tip">服务器忙，请稍后重试</string>
+    <string name="auth_error_tip">服务器验证失败，请稍后重试</string>
+    <string name="timeout_error_tip">连接服务器超时,请稍后重试</string>
+    <string name="parse_error_tip">服务器忙，请稍后重试</string>
+    <string name="fail_error_tip">拉取数据失败,请稍后重试</string>
+    <string name="not_find_artice_tip">没有找到对应的文章信息</string>
+    <string name="auth_check_error">用户验证失败</string>
+    <string name="update_title_tip">版本更新</string>
+    <string name="mashang_update_tip">立即更新</string>
+    <string name="zhanbu_no_update_tip">暂不更新</string>
+    <string name="exit_app_tip">退出应用</string>
+
+    <!-- 视频播放 -->
+    <string name="loadinfo">载入中，请稍后&#8230;</string>
+    <string name="file_oper">文件操作</string>
+    <string name="file_rename">重命名</string>
+    <string name="file_rename_failed">重命名失败</string>
+    <string name="file_rename_exists">文件已存在</string>
+    <string name="file_delete">删除</string>
+    <string name="file_delete_confirm">确定删除 (%s) ？</string>
+    <string name="video_layout_loading">正在缓冲&#8230;</string>
+    <string name="videoView_error_text_error">视频不能播放。</string>
+    <string name="register_login_account_tip">注册/登录</string>
+    <string name="ni_hai_no_login_tip">您还没有登录哦</string>
+    <string name="show_password_tip">显示密码</string>
+    <string name="share_success_tip">分享成功</string>
+    <string name="profile_invite_title_tip">邀请注册，共赢金币，邀请码是：%s</string>
+    <string name="profile_invite_tip">请您按如下方式邀请</string>
+    <string name="profile_invite_intro_tip">我下载了百姓关注官方应用“微兔gogo”，邀请你也加入哦，邀请码是：%s，注册的时候输入邀请码，你我都可以获得10金币，金币可兑换实物大奖，快来参加吧</string>
+    <string name="please_select_share_tip">请您选择如下方式分享</string>
+    <string name="please_select_one_option_tip">请选择您支持的队伍</string>
+    <string name="share_weixin_tip">微信</string>
+    <string name="share_weixin_fr">朋友圈</string>
+    <string name="share_message_tip">短信</string>
+    <string name="share_qq_tip">QQ</string>
+    <string name="share_qzone_tip">qq空间</string>
+    <string name="invite_success_tip">邀请成功</string>
+    <string name="wechat_client_inavailable">目前您的微信版本过低或未安装微信，需要安装微信才能使用</string>
+    <string name="delete_prize_tip">请工作人员输入领取码</string>
+    <string name="exchange_prize_tip">您确定兑换当前奖品吗?</string>
+    <string name="exchange_zhongchou_tip">您确定参与众筹吗?</string>
+    <string name="please_input_get_username_tip">请输入领取人的姓名</string>
+    <string name="please_input_get_phone_tip">请输入领取人的电话</string>
+    <string name="please_input_get_address_tip">请输入详细的地址</string>
+    <string name="please_change_get_address_tip">请选择省市区信息</string>
+    <string name="delete_prize_sure_tip">确&#160;&#160;定</string>
+    <string name="delete_prize_cancel_tip">取&#160;&#160;消</string>
+    <string name="coin_rank_now_tip">当前金币:&#160;&#160;%d</string>
+    <string name="coin_rank_week_tip">本周获得:&#160;&#160;%d</string>
+    <string name="coin_account_tip">账号:&#160;&#160;%s</string>
+    <string name="reset_pwd_success_tip">忘记密码成功,快去登录您的账号吧</string>
+    <string name="forget_pwd_success_title">忘记密码成功</string>
+    <string name="nin_yet_newest_version_tip">您当前已经是最新版本啦</string>
+    <string name="nin_yet_newest_version_downloading_tip">最新版本正在下载中</string>
+    <string name="shake_result_ral_prize_tip">去我的奖品列表查看奖品</string>
+    <string name="goon_shake_tip">继续摇</string>
+    <string name="go_to_look_tip">去查看</string>
+    <string name="kickoff_tip">下线通知</string>
+    <string name="you_sure_delete_comment_tip">您确定要删除该评论吗?</string>
+    <string name="delete_comment_tip">删除评论</string>
+    <string name="today_yet_sign_up_tip">今天您已签到</string>
+    <string name="unknown_error">拉取数据失败,请点击屏幕重试</string>
+    <string name="empty_tip">目前还没有与之有关的数据</string>
+
+    <!-- 订单 -->
+    <string name="order_confirm_tip">提交订单</string>
+    <string name="order_comment_tip">评价/晒单</string>
+    <string name="order_seltlement_tip">结算</string>
+    <string name="order_pay_method_tip">支付方式</string>
+    <string name="order_sure_pay_tip">确认支付</string>
+    <string name="order_pay_success_title_tip">支付成功</string>
+    <string name="order_pay_fail_title_tip">支付失败</string>
+    <string name="order_pay_success_tip">恭喜您,您的支付已成功!</string>
+    <string name="order_pay_fail_tip">十分抱歉的通知您,您的支付遇到问题</string>
+    <string name="order_pay_continue_shopping_tip">继续购物</string>
+    <string name="order_pay_look_order_tip">查看订单</string>
+    <string name="order_pay_reset_pay_tip">重新支付</string>
+    <string name="pay_method_arrive">货到付款</string>
+    <string name="pay_method_online">在线支付</string>
+    <string name="pay_method_ali">支付宝</string>
+    <string name="pay_method_uni">手机银联</string>
+    <string name="pay_method_weixin">微信支付</string>
+    <string name="pay_method_tip">支付方式:</string>
+    <string name="select_num_tip">选择数量:</string>
+    <string name="shop_yet_completed_tip">已售罄</string>
+    <string name="prize_yet_complete_tip">已过期</string>
+    <string name="prize_yet_get_tip">已领取</string>
+
+    <!-- 商品详情 -->
+    <string name="goods_details_support_pay_tip">支持支付方式:</string>
+    <string name="goods_details_no_extra_tip">在线支付(不需要手续费)</string>
+    <string name="goods_details_extra_tip">货到付款(需另付 %.2f元手续费)"</string>
+    <string name="goods_details_pao_postage">邮费说明(包邮)</string>
+    <string name="goods_details_store_tip">库存:&#160;%s</string>
+    <string name="goods_details_unit_tip">单位:&#160;%s</string>
+    <string name="goods_details_type_tip">类型:&#160;%s</string>
+    <string name="goods_details_sell_tip">累积销量:&#160;%d</string>
+    <string name="goods_details_yet_no_buy_tip">商品没发布或已下架,无法购买</string>
+    <string name="goods_details_yet_completed_tip">商品已经售罄,无法购买</string>
+    <string name="goods_details_post_tip_1">邮费说明(%d件内</string>
+    <string name="goods_details_post_tip_2"> %.2f元邮费，超过按实际重量收取)</string>
+    <string name="goods_details_no_neeed_post_price">在线支付(不需要手续费)</string>
+    <string name="goods_detais_select_buy_num_tip">请您选择要购买的数量</string>
+    <string name="goods_details_goods_price_tip">总金额: ￥ %.2f(不含邮费和手续费)</string>
+
+    <!-- 提交订单 -->
+    <string name="commit_order_order_total_tip">订单合计金额:&#160;&#160;%.2f</string>
+    <string name="commit_order_extra_price_tip">手续费:&#160;&#160;%.2f</string>
+    <string name="commit_order_goods_price_tip">商品合计金额:&#160;&#160;%.2f</string>
+    <string name="commit_order_post_price_tip">邮费合计金额:&#160;&#160;%.2f</string>
+    <string name="commit_order_commit_success_title_tip">提交成功</string>
+    <string name="commit_order_commiting_order_tip">正在生成订单&#8230;</string>
+    <string name="commit_order_commit_success_message_tip">订单提交成功,我们将尽快发货</string>
+    <string name="commit_order_commit_receiver_address_tip">请输入收件人的地址</string>
+    <string name="commit_order_commit_receiver_phone_tip">请输入收件人的手机号码</string>
+    <string name="commit_order_commit_receiver_phoneRight_tip">请输入正确的手机号码(11位)</string>
+    <string name="commit_order_commit_receiver_name_tip">请输入收件人的姓名</string>
+    <string name="commit_order_receive_title_tip">请填写收件人的信息</string>
+    <string name="commit_order_get_title_tip">请填写领取人的信息</string>
+    <string name="commit_order_commit_no_extra_tip">无手续费</string>
+
+    <!-- 我的奖品 -->
+    <string name="profile_prize_prize_3_three_arrive_tip">您的奖品将会在3个工作日内寄出,请耐心等待!</string>
+    <string name="profile_prize_you_get_prize_success_tip">您的奖品领取成功</string>
+    <string name="profile_prize_send_you_number_tip">您的中奖卡号信息将会发送到您注册的手机号码上,请注意查收!</string>
+    <string name="profile_prize_get_prize_success_title">奖品领取成功</string>
+    <string name="profile_prize_you_input_code_error_tip">输入的领取码不对,请重新输入</string>
+    <string name="profile_prize_please_input_code_tip">请输入验证码</string>
+    <string name="profile_przie_zhong_chou_result_tip">查看结果</string>
+    <string name="profile_przie_zhijie_tip">直接领取</string>
+    <string name="profile_przie_xianchang_tip">现场领取</string>
+    <string name="profile_prize_post_tip">邮寄领取</string>
+    <string name="profile_prize_yet_get_tip_ex">已经领取</string>
+
+    <!-- 我的电子券 -->
+    <string name="profile_prize_yet_get_tip_used">已使用</string>
+    <string name="profile_prize_yet_get_tip_use">使用</string>
+    <string name="profile_et_you_input_code_error_tip">电子券验证码错误</string>
+    <string name="profile_et_you_input_code_empty_tip">请输入电子卷验证码</string>
+
+    <!-- 我的订单 -->
+    <string name="profile_order_object_flow_tip">物流信息</string>
+    <string name="profile_order_cancel_order_tip">取消订单</string>
+    <string name="profile_order_order_details_tip">订单详情</string>
+    <string name="profile_order_order_details_write">写评价</string>
+    <string name="profile_order_now_pay_tip">立即支付</string>
+    <string name="profile_order_group_order_no_tip">订&#160;&#160;单&#160;&#160;号:</string>
+    <string name="profile_order_group_order_dt_tip">下单时间:</string>
+    <string name="profile_order_last_chind_order_price_tip">订单金额:</string>
+    <string name="profile_order_last_chind_order_state_tip">订单状态:</string>
+    <string name="order_state_no_pay_tip">待支付</string>
+    <string name="order_state_no_send_tip">待发货</string>
+    <string name="order_state_yet_cancal_tip">已取消</string>
+    <string name="order_state_yet_complete_tip">已完成</string>
+    <string name="order_details_receiver_tip">收&#160;&#160;货&#160;&#160;人:&#160;&#160;%s</string>
+    <string name="order_details_post_address_tip">邮寄地址:&#160;&#160;%s</string>
+    <string name="order_details_contact_phone_tip">联系电话:&#160;&#160;%s</string>
+    <string name="order_details_pay_method_tip">支付方式:&#160;&#160;%s</string>
+
+    <!-- 启动广告 -->
+    <string name="start_page_ad_join_tip">进入查看详情</string>
+    <string name="start_page_ad_skip_tip">跳过</string>
+
+    <!-- apk -->
+    <string name="newest_apk_downloading_tip">最新版本正在下载中,请耐心等待&#8230;</string>
+    <string name="cache_size_tip">%.2fM</string>
+    <string name="app_notice_sure_tip">确&#160;&#160;定</string>
+
+    <!--  主题图片 -->
+    <string name="newest_photo_tip">最新图片</string>
+    <string name="hotest_photo_tip">最热图片</string>
+    <string name="i_will_join_tip">晒照片</string>
+    <string name="input_sn_search_tip">请输入相应的编号进行搜索</string>
+    <string name="cancel_search_tip">取消</string>
+    <string name="rule_activity_tip">活动规则</string>
+    <string name="how_much_yet_command">%d人已经赞过</string>
+    <string name="how_much_no_yet_command">目前没人赞过</string>
+    <string name="you_yet_command_theme_photo">您已经赞过了该图片</string>
+    <string name="you_select_file_not_exsits">您选取的图片文件不存在</string>
+    <string name="please_select_you_theme_photo">请您选择上传图片的方式</string>
+    <string name="please_upload_theme_photo_tip">上传图片</string>
+    <string name="you_network_yet_broke_tip">网络链接已断开,将无法上传图片</string>
+    <string name="you_photo_yet_cancel_tip">您取消了图片上传，将不在上传图片</string>
+    <string name="you_is_not_qiniu_tip">服务器验证图片出错</string>
+    <string name="you_server_error_tip">服务器内部错误，请稍后重试</string>
+    <string name="command_user_list_tip">点赞人员</string>
+    <string name="topic_activity_yet_end">主题活动已结束</string>
+    <string name="photo_crop_tip">图片截切</string>
+    <string name="next_step_tip">下一步</string>
+    <string name="rorate_90_tip">旋转90度</string>
+    <string name="change_size_tip">改变尺寸</string>
+    <string name="write_comments_tip">写评论</string>
+    <string name="go_to_vote_tip">投&#160;票</string>
+    <string name="user_pwd_error_tip">您的账号出现异常，请重新登录</string>
+    <string name="nin_yet_command_tip">您已经赞过了哦</string>
+    <string name="search_content_is_empty_tip">搜索的内容不能为空</string>
+    <string name="please_input_desc_content">请您输入图片的描述信息</string>
+
+    <!-- 录音 -->
+    <string name="longclick_speak">按住  说话</string>
+    <string name="longclick_not_speak">松开  发送</string>
+    <string name="voice_up_tips">手指上滑,取消发送</string>
+    <string name="voice_short">录音时间太短</string>
+
+    <!-- 爆料上传文件 -->
+    <string name="fact_compress_imging">正在进行图片压缩...</string>
+    <string name="fact_compress_videoing">正在进行视频压缩...</string>
+    <string name="fact_compress_voiceing">正在进行语音压缩...</string>
+    <string name="fact_upload_success">恭喜，上传成功!</string>
+    <string name="fact_upload_video_max_size">上传视频不能大于500M!</string>
+    <string name="fact_upload_ing">文件正在上传中...</string>
+
+</resources>

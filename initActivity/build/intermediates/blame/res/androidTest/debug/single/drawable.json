@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/initActivity/build/intermediates/res/merged/androidTest/debug/drawable/scrubber_progress_horizontal_holo_dark.xml",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/initActivity/build/intermediates/bundles/debug/res/drawable/scrubber_progress_horizontal_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/initActivity/build/intermediates/res/merged/androidTest/debug/drawable/anim_loading_init_drawable.xml",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/initActivity/build/intermediates/bundles/debug/res/drawable/anim_loading_init_drawable.xml"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/initActivity/build/intermediates/res/merged/androidTest/debug/drawable/scrubber_control_selector_holo.xml",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/initActivity/build/intermediates/bundles/debug/res/drawable/scrubber_control_selector_holo.xml"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/initActivity/build/intermediates/res/merged/androidTest/debug/drawable/mediacontroller_button.xml",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/initActivity/build/intermediates/bundles/debug/res/drawable/mediacontroller_button.xml"
+    }
+]

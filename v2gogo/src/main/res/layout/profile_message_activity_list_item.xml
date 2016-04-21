@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_list_item_conntainer_layout"
+    android:background="@drawable/selector_top_skin_listview_item_drawable"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingBottom="15dip"
+    android:paddingTop="15dip" >
+
+    <Button
+        android:id="@+id/profile_message_btn_yt_read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="4dip"
+        android:background="@drawable/selector_common_btn_drawable"
+        android:focusable="false"
+        android:minWidth="60dip"
+        android:text="@string/profile_message_yet_read"
+        android:textColor="@android:color/white"
+        android:textIsSelectable="false"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/profile_message_text_content"
+        style="@style/style_list_item_title"
+        android:layout_centerVertical="false"
+        android:layout_toLeftOf="@id/profile_message_btn_yt_read" />
+
+    <TextView
+        android:id="@+id/profile_message_create_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/profile_message_text_content"
+        android:layout_below="@id/profile_message_text_content"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/app_common_gray"
+        android:textSize="13sp" />
+
+</RelativeLayout>

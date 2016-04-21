@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <com.v2gogo.project.views.logic.ProfileUserInfoLayout
+        android:id="@+id/fragment_profile_header_info_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/fragment_profile_header_message_layout"
+        style="@style/style_fragment_profile_item_layout"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/selector_top_skin_listview_item_drawable" >
+
+        <TextView
+            style="@style/style_fragment_profile_item_text"
+            android:drawableLeft="@drawable/user_icons_message"
+            android:text="@string/profile_message" />
+
+        <ImageView
+            android:id="@+id/fragment_profile_header_message_new"
+            style="@style/style_fragment_profile_item_new"
+            android:contentDescription="@string/app_name"
+            android:visibility="gone" />
+
+        <ImageView
+            style="@style/style_fragment_profile_item_arrow"
+            android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_profile_header_prize_layout"
+        style="@style/style_fragment_profile_item_layout"
+        android:background="@drawable/selector_middle_skin_listview_item_drawable" >
+
+        <TextView
+            style="@style/style_fragment_profile_item_text"
+            android:drawableLeft="@drawable/user_icons_prize"
+            android:text="@string/profile_prize" />
+
+        <ImageView
+            android:id="@+id/fragment_profile_header_prize_new"
+            style="@style/style_fragment_profile_item_new"
+            android:contentDescription="@string/app_name"
+            android:visibility="gone" />
+
+        <ImageView
+            style="@style/style_fragment_profile_item_arrow"
+            android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_profile_header_quan_layout"
+        style="@style/style_fragment_profile_item_layout"
+        android:background="@drawable/selector_middle_skin_listview_item_drawable" >
+
+        <TextView
+            style="@style/style_fragment_profile_item_text"
+            android:drawableLeft="@drawable/user_icons_quan"
+            android:text="@string/profile_quan" />
+
+        <ImageView
+            style="@style/style_fragment_profile_item_arrow"
+            android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_profile_header_order_layout"
+        style="@style/style_fragment_profile_item_layout"
+        android:background="@drawable/selector_middle_skin_listview_item_drawable" >
+
+        <TextView
+            style="@style/style_fragment_profile_item_text"
+            android:drawableLeft="@drawable/user_icons_shopping"
+            android:text="@string/profile_order" />
+
+        <ImageView
+            android:id="@+id/fragment_profile_header_order_new"
+            style="@style/style_fragment_profile_item_new"
+            android:contentDescription="@string/app_name"
+            android:visibility="gone" />
+
+        <ImageView
+            style="@style/style_fragment_profile_item_arrow"
+            android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_profile_header_comment_layout"
+        style="@style/style_fragment_profile_item_layout"
+        android:background="@drawable/selector_middle_skin_listview_item_drawable" >
+
+        <TextView
+            style="@style/style_fragment_profile_item_text"
+            android:drawableLeft="@drawable/user_icons_comment"
+            android:text="@string/profile_comment" />
+
+        <ImageView
+            style="@style/style_fragment_profile_item_arrow"
+            android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_profile_header_collection_layout"
+        style="@style/style_fragment_profile_item_layout"
+        android:background="@drawable/selector_middle_skin_listview_item_drawable" >
+
+        <TextView
+            style="@style/style_fragment_profile_item_text"
+            android:drawableLeft="@drawable/user_icons_collection"
+            android:text="@string/profile_collection" />
+
+        <ImageView
+            style="@style/style_fragment_profile_item_arrow"
+            android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+
+</LinearLayout>

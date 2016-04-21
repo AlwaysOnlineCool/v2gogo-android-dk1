@@ -1,0 +1,806 @@
+[
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_input.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/btn_input.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ssdk_recomm_list_item_back_top.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ssdk_recomm_list_item_back_top.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yaoyaole_pic_none.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/yaoyaole_pic_none.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yaoyaole_icons_flag.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/yaoyaole_icons_flag.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_convert_selected.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/tab_convert_selected.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yaoyaole_bg.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/yaoyaole_bg.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/iconfont_wangluo.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/iconfont_wangluo.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icons_list_commentary.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/icons_list_commentary.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/review_ic_review_score_tip_normal_on.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/review_ic_review_score_tip_normal_on.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yaoyaole_bg_frame.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/yaoyaole_bg_frame.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/article_xiazai.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/article_xiazai.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ssdk_recomm_list_item_back.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ssdk_recomm_list_item_back.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/v2gogo_icons_woyaobaoming.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/v2gogo_icons_woyaobaoming.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/shop_list_grid_icon.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/shop_list_grid_icon.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ssdk_back_arr.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ssdk_back_arr.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/scrubber_control_normal_holo.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/exploded-aar/v2gogo-android/initActivity/unspecified/res/drawable-xhdpi-v4/scrubber_control_normal_holo.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/user_icons_collection.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/user_icons_collection.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/review_ic_review_score_tip_excellent_off.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/review_ic_review_score_tip_excellent_off.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ssdk_recomm_share_fail_cn.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ssdk_recomm_share_fail_cn.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icons_circle.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/icons_circle.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yaoyaole_pic_notstart.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/yaoyaole_pic_notstart.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_btn_on.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/set_btn_on.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_action_favor_normal.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ic_action_favor_normal.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/spinner_inner_holo.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/spinner_inner_holo.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_label_purple.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/home_label_purple.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yaoyaole_manycoins.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/yaoyaole_manycoins.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icons_list_dianzan.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/icons_list_dianzan.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/user_icons_user_orange.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/user_icons_user_orange.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/loading_image_default_fe.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/loading_image_default_fe.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/nav_menu_others.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/nav_menu_others.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ssdk_recomm_share_success_cn.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ssdk_recomm_share_success_cn.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ssdk_recomm_back.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ssdk_recomm_back.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yaoyaole_pic_coin.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/yaoyaole_pic_coin.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_addpicture.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/btn_addpicture.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/review_ic_review_score_tip_normal_off.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/review_ic_review_score_tip_normal_off.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/comm_topic_video.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/comm_topic_video.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/mediacontroller_play.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/exploded-aar/v2gogo-android/initActivity/unspecified/res/drawable-xhdpi-v4/mediacontroller_play.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/scrubber_primary_holo.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/exploded-aar/v2gogo-android/initActivity/unspecified/res/drawable-xhdpi-v4/scrubber_primary_holo.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_common_red_selected.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/btn_common_red_selected.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/review_ic_review_score_tip_good_on.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/review_ic_review_score_tip_good_on.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_btn_v2gogo.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/home_btn_v2gogo.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/scrubber_track_holo_dark.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/exploded-aar/v2gogo-android/initActivity/unspecified/res/drawable-xhdpi-v4/scrubber_track_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/jinbi_icons_no1.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/jinbi_icons_no1.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_nav_baoliao.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/home_nav_baoliao.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/theme_command.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/theme_command.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ssdk_oks_yaoyiyao.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ssdk_oks_yaoyiyao.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yaoyaole_icons_weizhongjiang.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/yaoyaole_icons_weizhongjiang.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_label_red.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/home_label_red.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/review_ic_review_score_tip_good_off.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/review_ic_review_score_tip_good_off.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_shopping_selected.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/tab_shopping_selected.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_common_greyselected_selected.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/btn_common_greyselected_selected.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/user_icons_prize.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/user_icons_prize.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/loading2.jpg",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/loading2.jpg"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/loading_image_default.jpg",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/loading_image_default.jpg"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_common_orange_normal.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/btn_common_orange_normal.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ssdk_oks_shake_to_share_back.xml",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ssdk_oks_shake_to_share_back.xml"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_action_search.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ic_action_search.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ssdk_recomm_list_item_back_bottom.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ssdk_recomm_list_item_back_bottom.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yaoyaole_icons_hand.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/yaoyaole_icons_hand.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/loading3.jpg",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/loading3.jpg"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_numberbg.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/btn_numberbg.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_home.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/tab_home.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ssdk_recomm_title_back.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ssdk_recomm_title_back.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/v2gogo_icons_hudongyindajiang.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/v2gogo_icons_hudongyindajiang.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/share_wenxin.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/share_wenxin.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_btn_coinleft.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/home_btn_coinleft.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_action_theme_photo_command.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ic_action_theme_photo_command.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yaoyaole_bg_frame2.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/yaoyaole_bg_frame2.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_btn_yaoyiyao.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/home_btn_yaoyiyao.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ssdk_recomm_download_app.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ssdk_recomm_download_app.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/loading1.jpg",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/loading1.jpg"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ssdk_recomm_def_ad_image.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ssdk_recomm_def_ad_image.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ssdk_logo.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ssdk_logo.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ssdk_title_div.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ssdk_title_div.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_numberadd_selected.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/btn_numberadd_selected.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/user_icons_comment.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/user_icons_comment.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/user_icons_quan.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/user_icons_quan.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ssdk_recomm_list_item_mask.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ssdk_recomm_list_item_mask.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_action_theme_command.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ic_action_theme_command.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/qiandao_icons_coins.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/qiandao_icons_coins.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/commentary_btn_dianzan.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/commentary_btn_dianzan.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yaoyaole_icons_miaosha.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/yaoyaole_icons_miaosha.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_ui_popup_titleline.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/common_ui_popup_titleline.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_action_vote.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/icon_action_vote.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/loading_article.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/loading_article.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ssdk_recomm_result_back.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ssdk_recomm_result_back.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_common_input.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/btn_common_input.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_share.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ic_share.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/share_message.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/share_message.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ssdk_recomm_def_plat_logo.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ssdk_recomm_def_plat_logo.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/review_ic_comment_upload_add_camera.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/review_ic_comment_upload_add_camera.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/convert_icons_coin.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/convert_icons_coin.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_shopping.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/tab_shopping.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ssdk_recomm_share_success_en.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ssdk_recomm_share_success_en.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_numbersubtract_selected.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/btn_numbersubtract_selected.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_action_theme_command_pressed.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ic_action_theme_command_pressed.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/share_qq.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/share_qq.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/nav_menu_refresh.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/nav_menu_refresh.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/user_icons_new.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/user_icons_new.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_home_selected.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/tab_home_selected.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_btn_coinright.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/home_btn_coinright.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_action_theme_photo_command_pressed.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ic_action_theme_photo_command_pressed.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ssdk_recomm_btn_bg.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ssdk_recomm_btn_bg.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_numberadd.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/btn_numberadd.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ssdk_recomm_plats_less.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ssdk_recomm_plats_less.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/shop_list_lis_icon.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/shop_list_lis_icon.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yaoyaole_icons_yaoyaole.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/yaoyaole_icons_yaoyaole.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yaoyaole_icons_yao.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/yaoyaole_icons_yao.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icons_label_orange.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/icons_label_orange.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_search_icon.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ic_search_icon.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/details_icon_fullscreen_pressed.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/details_icon_fullscreen_pressed.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_btn_baixingguanzhu.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/home_btn_baixingguanzhu.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_action_write_gray.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ic_action_write_gray.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/review_ic_review_score_tip_bad_on.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/review_ic_review_score_tip_bad_on.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yaoyaole_icons_huodongweikaishi.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/yaoyaole_icons_huodongweikaishi.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yaoyaole_bg_circle_inside.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/yaoyaole_bg_circle_inside.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_categary.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ic_categary.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_btn_share.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/tab_btn_share.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_user.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/tab_user.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/upload_close_icon.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/upload_close_icon.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_convert.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/tab_convert.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/review_ic_review_score_tip_perfect_off.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/review_ic_review_score_tip_perfect_off.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icons_select.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/icons_select.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/scan_icon.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/scan_icon.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/scrubber_control_focused_holo.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/exploded-aar/v2gogo-android/initActivity/unspecified/res/drawable-xhdpi-v4/scrubber_control_focused_holo.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/score_add.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/score_add.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/takeout_bg_spinner_divider.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/takeout_bg_spinner_divider.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ssdk_auth_title_back.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ssdk_auth_title_back.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/scrubber_control_pressed_holo.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/exploded-aar/v2gogo-android/initActivity/unspecified/res/drawable-xhdpi-v4/scrubber_control_pressed_holo.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_user_selected.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/tab_user_selected.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icons_select_default.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/icons_select_default.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/user_icons_message.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/user_icons_message.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_action_comment_normal.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ic_action_comment_normal.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_input_selected.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/btn_input_selected.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yaoyaole_icons_v2.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/yaoyaole_icons_v2.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/user_icons_kefu.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/user_icons_kefu.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/user_icons_forward.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/user_icons_forward.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_rating_star_small_on.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ic_rating_star_small_on.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ssdk_recomm_def_app_logo.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ssdk_recomm_def_app_logo.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/mediacontroller_pause.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/exploded-aar/v2gogo-android/initActivity/unspecified/res/drawable-xhdpi-v4/mediacontroller_pause.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/theme_photo_command_bg.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/theme_photo_command_bg.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/commentary_btn_dianzan_selected.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/commentary_btn_dianzan_selected.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/scrubber_control_disabled_holo.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/exploded-aar/v2gogo-android/initActivity/unspecified/res/drawable-xhdpi-v4/scrubber_control_disabled_holo.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_action_repost_normal.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ic_action_repost_normal.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/set_btn_off.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/set_btn_off.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/review_ic_review_score_tip_excellent_on.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/review_ic_review_score_tip_excellent_on.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/theme_command_pressed.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/theme_command_pressed.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yaoyaole_word.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/yaoyaole_word.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_common_grey.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/btn_common_grey.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/score_camare.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/score_camare.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_action_vote.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ic_action_vote.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/user_icons_publish.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/user_icons_publish.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icons_list_time.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/icons_list_time.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_action_size.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ic_action_size.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/share_weixin_f.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/share_weixin_f.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/nav_menu_home.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/nav_menu_home.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_btn_shopping.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/tab_btn_shopping.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/v2gogo_avatar.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/v2gogo_avatar.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/comment_gengtie_icon.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/comment_gengtie_icon.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icons_label_red.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/icons_label_red.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_action_favor_on_normal.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ic_action_favor_on_normal.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_action_write_normal.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ic_action_write_normal.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/details_icon_windowplay_pressed.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/details_icon_windowplay_pressed.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yaoyaole_btn_close.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/yaoyaole_btn_close.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_jianpan.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/icon_jianpan.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/start_page_ad_arrow.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/start_page_ad_arrow.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_btn_share_selected.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/tab_btn_share_selected.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/nav_menu_collection.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/nav_menu_collection.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_nav_qiandao.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/home_nav_qiandao.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/theme_photo_command_bg_pressed.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/theme_photo_command_bg_pressed.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/review_ic_review_score_tip_bad_off.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/review_ic_review_score_tip_bad_off.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_numbersubtract.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/btn_numbersubtract.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_common_grey_selected.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/btn_common_grey_selected.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yaoyaole_bg_circle_outside.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/yaoyaole_bg_circle_outside.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/user_icons_invitation.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/user_icons_invitation.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icons_circle_default.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/icons_circle_default.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/jinbi_icons_no3.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/jinbi_icons_no3.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/nav_menu_back.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/nav_menu_back.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/share_qzone.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/share_qzone.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yaoyaole_icons_word2.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/yaoyaole_icons_word2.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/user_icons_set.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/user_icons_set.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_label_green.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/home_label_green.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/user_icons_shopping.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/user_icons_shopping.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ssdk_recomm_def_avatar.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ssdk_recomm_def_avatar.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/jinbi_icons_no2.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/jinbi_icons_no2.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_btn_shipinzhibo.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/home_btn_shipinzhibo.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_action_comment_gray.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ic_action_comment_gray.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/yaoyaole_icons_word1.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/yaoyaole_icons_word1.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/iconfont_empty.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/iconfont_empty.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_action_upload.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ic_action_upload.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/v2gogo.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/v2gogo.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ssdk_recomm_share_fail_en.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ssdk_recomm_share_fail_en.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_common_orange_selected.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/btn_common_orange_selected.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/review_ic_review_score_tip_perfect_on.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/review_ic_review_score_tip_perfect_on.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/scrubber_secondary_holo.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/exploded-aar/v2gogo-android/initActivity/unspecified/res/drawable-xhdpi-v4/scrubber_secondary_holo.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_addpicture_selected.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/btn_addpicture_selected.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ssdk_recomm_plats_more.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ssdk_recomm_plats_more.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_btn_shopping_selected.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/tab_btn_shopping_selected.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/btn_common_red.9.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/btn_common_red.9.png"
+    },
+    {
+        "merged": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_action_rorate.png",
+        "source": "/Users/dk/Documents/AndroidWorkSpace/dk1/v2gogo-android/v2gogo/src/main/res/drawable-xhdpi/ic_action_rorate.png"
+    }
+]

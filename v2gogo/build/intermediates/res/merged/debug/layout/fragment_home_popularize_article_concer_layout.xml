@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 首页文章推广位布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/fragment_home_artice_more_layout"
+        style="@style/style_fragment_home_popularize_name_layout" >
+
+        <ImageView
+            android:layout_width="4dip"
+            android:layout_height="18dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="1dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/icons_label_orange" />
+
+        <TextView
+            android:id="@+id/fragment_home_popularize_artice_name"
+            style="@style/style_fragment_home_popularize_name"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip" />
+    </RelativeLayout>
+
+    <com.v2gogo.project.views.listview.MyListView
+        android:id="@+id/concer_article_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/app_color"
+        android:dividerHeight="0.4dp" />
+
+</LinearLayout>

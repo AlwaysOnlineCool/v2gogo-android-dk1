@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.v2gogo.project"
+    android:installLocation="preferExternal"
+    android:versionCode="401"
+    android:versionName="4.0.1" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="21" />
+
+    <!-- 录音权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="getui.permission.GetuiService.com.v2gogo.project" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <permission
+        android:name="getui.permission.GetuiService.com.v2gogo.project"
+        android:protectionLevel="normal" >
+    </permission>
+
+    <application
+        name="com.v2gogo.project.main.V2GogoApplication"
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="com.v2gogo.project.activity.StartPageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/app_theme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="TESTIN_APPKEY"
+            android:value="4ff11174c94ee78cd49090f56a7881ef" />
+        <meta-data
+            android:name="TESTIN_CHANNEL"
+            android:value="v2gogo" />
+
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <data android:scheme="db-626869ca653c" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 微信分享回调 -->
+        <activity
+            android:name="com.v2gogo.project.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!-- QQ客户端回调 -->
+        <activity
+            android:name="cn.sharesdk.tencent.qq.ResultReceiver"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+
+            <!--
+如果集成QQ分享，或者使用QQ客户端来进行QQ空间的分享，须要在此处添加一个对ACTION_VIEW
+事件的过滤器，其中的scheme是“tencent”前缀再开发者应用的加上appId。如果此过滤器不设置，
+则分享结束以后不能得到正确的回调
+            -->
+            <intent-filter android:priority="1000" >
+                <data android:scheme="tencent1104336804" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="io.vov.vitamio.activity.InitActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.v2gogo.project.activity.home.v2gogo.HomeV2gogoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.home.theme.NewestThemePhotoListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.v2gogo.project.activity.home.theme.HotestThemePhotoListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.v2gogo.project.activity.home.theme.HomeThemePhotoTabActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.home.theme.HomeThemePhotoSearchActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+        <activity
+            android:name="com.v2gogo.project.activity.home.theme.HomeThemePhotoDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.v2gogo.project.activity.home.theme.HomeThemePhotoPostActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+        <activity
+            android:name="com.v2gogo.project.activity.home.theme.HomeThemePhotoCommandListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.WizardActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.StartPageAdActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.home.v2gogo.HomeV2gogoDaJiangActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.home.HomeConcernActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.exchange.ExchangePrizeDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.v2gogo.project.activity.profile.ProfileMessageActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.profile.setting.ProfileSettingActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.profile.ProfilePrizeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.profile.ProfileInviteFriendActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.profile.ProfileOrderActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.PhotoPreviewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.profile.ProfileCommentActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.shop.CommitOrderActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.home.theme.BaseThemePhotoListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.profile.ProfileCollectionActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.profile.setting.ProfileSettingPayActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.profile.ProfileMessageDetailsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.profile.ProfileInfoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.profile.ProfileProviceActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.profile.ProfileCommentTabActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.profile.ProfileReplyCommentActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.shop.ShopActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.home.HomeShakeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.account.AccountVerificationCodeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.account.AccountLoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.account.AccountRegisterActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.MainTabActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.home.HomeCommentActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.home.HomeArticleDetailsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.home.HomeCommentListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.home.HomeActivity"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.home.HomeActivity2"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.profile.ProfileActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.exchange.ExchangeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.profile.ProfileModifyPasswordActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.home.HotCommentListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.home.NewestCommentListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.account.AccountForgetPasswordActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.V2gogoUserProtocolActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.shop.GroupGoodsDetailsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.profile.setting.AboutUsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.profile.setting.FeedbackActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.CoinRankActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.profile.setting.ProductDescriptionActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.profile.ProfileCityActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.home.v2gogo.VedioPlayActivity"
+            android:launchMode="singleInstance"
+            android:process=":extend"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.WebViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.shop.OrderDetailsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.shop.OrderSettlementActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.home.HomeLiveActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.v2gogo.project.activity.profile.ProfileEtcQuanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.v2gogo.project.activity.home.theme.UploadPictureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.v2gogo.project.activity.home.subject.HomeSubjectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.v2gogo.project.activity.profile.ProfileScoreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.v2gogo.project.activity.shop.GroupWebViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.v2gogo.project.activity.shop.GroupProductTypeWebViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.v2gogo.project.activity.shop.GroupProductListWebViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.v2gogo.project.activity.home.welfare.WelfareActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 微信支付 -->
+        <activity
+            android:name="com.v2gogo.project.wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+
+        <!-- 银联支付 -->
+        <activity
+            android:name="com.unionpay.uppay.PayActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- 个推SDK配置开始 -->
+        <!-- 配置的第三方参数属性 -->
+        <meta-data
+            android:name="PUSH_APPID"
+            android:value="0YiYoEgQtC98giwoNQnrv" />
+        <meta-data
+            android:name="PUSH_APPKEY"
+            android:value="DO3pNmFQktAfU30AZ9vPz5" />
+        <meta-data
+            android:name="PUSH_APPSECRET"
+            android:value="rdoKh62bSJ96y5kGecVgW9" />
+        <meta-data
+            android:name="PUSH_GROUPID"
+            android:value="" />
+
+        <!-- 配置第三方Receiver -->
+        <receiver
+            android:name="com.v2gogo.project.PushDemoReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.0YiYoEgQtC98giwoNQnrv" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 配置SDK核心服务 -->
+        <service
+            android:name="com.igexin.sdk.PushService"
+            android:exported="true"
+            android:label="NotificationCenter"
+            android:process=":pushservice" >
+        </service>
+
+        <receiver android:name="com.igexin.sdk.PushReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="com.igexin.sdk.action.refreshls" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.igexin.sdk.PushManagerReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.pushmanager" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.igexin.sdk.PushActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:process=":pushservice"
+            android:taskAffinity="com.igexin.sdk.PushActivityTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+
+        <service
+            android:name="com.igexin.download.DownloadService"
+            android:process=":pushservice" />
+
+        <activity
+            android:name="com.igexin.getuiext.activity.GetuiExtActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:process=":pushservice"
+            android:taskAffinity="android.task.myServicetask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <receiver
+            android:name="com.igexin.getuiext.service.PayloadReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.7fjUl2Z3LH6xYy7NQK4ni4" />
+                <action android:name="com.igexin.sdk.action.0YiYoEgQtC98giwoNQnrv" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.igexin.getuiext.service.GetuiExtService"
+            android:process=":pushservice" />
+        <service
+            android:name="com.v2gogo.project.utils.common.apk.DownloadApkService"
+            android:exported="false" />
+    </application>
+
+</manifest>

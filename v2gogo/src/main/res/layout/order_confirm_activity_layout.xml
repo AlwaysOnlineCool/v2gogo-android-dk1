@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/style_common_action_bar" >
+
+        <ImageButton
+            style="@style/style_common_action_back"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            style="@style/style_common_action_bar_title"
+            android:text="@string/order_confirm_tip" />
+    </RelativeLayout>
+
+    <com.v2gogo.project.views.listview.refreshview.PullRefreshListView
+        android:id="@+id/order_confirm_pull_to_refresh_listview"
+        style="@style/style_common_pull_list_view"
+        android:layout_height="0dip"
+        android:layout_weight="1" />
+
+    
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/skin_setting_strip_top_unpressed"
+        android:padding="6dip" >
+
+        <Button
+            android:id="@+id/order_confirm_commit_order_btn"
+            android:layout_width="110dip"
+            android:layout_height="@dimen/button_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_common_org_btn_drawable"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:text="@string/commit_order_tip"
+            android:textColor="@android:color/white"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/order_confirm_commit_total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="12dip"
+            android:layout_toLeftOf="@id/order_confirm_commit_order_btn"
+            android:textColor="@color/action_bar_color"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</LinearLayout>

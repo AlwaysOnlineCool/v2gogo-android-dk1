@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_custom_dialog_container_layout" >
+
+    <TextView
+        android:id="@+id/get_prize_post_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/commit_order_get_title_tip"
+        android:textColor="@color/app_common_black"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/get_prize_post_input_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="12dip"
+        android:background="@drawable/selector_common_btn_drawable"
+        android:hint="@string/please_input_get_username_tip"
+        android:paddingLeft="12dip"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/get_prize_post_input_phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="12dip"
+        android:background="@drawable/selector_common_btn_drawable"
+        android:hint="@string/please_input_get_phone_tip"
+        android:inputType="number"
+        android:paddingLeft="12dip"
+        android:textSize="15sp" />
+    <EditText
+        android:id="@+id/get_prize_post_change_address"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="12dip"
+        android:background="@drawable/selector_common_btn_drawable"
+        android:hint="@string/please_change_get_address_tip"
+        android:editable="false"
+        android:paddingLeft="12dip"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/get_prize_post_input_address"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="12dip"
+        android:background="@drawable/selector_common_btn_drawable"
+        android:hint="@string/please_input_get_address_tip"
+        android:paddingLeft="12dip"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="15dip"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/profile_action_sheet_edit_dialog_sure"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_common_btn_drawable"
+            android:text="@string/profile_info_sure"
+            android:textColor="#696969"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/profile_action_sheet_edit_dialog_cancle"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dip"
+            android:layout_weight="1"
+            android:background="@drawable/selector_common_btn_drawable"
+            android:text="@string/profile_info_cancle"
+            android:textColor="#696969"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+</LinearLayout>

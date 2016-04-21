@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_list_item_conntainer_layout"
+    android:background="@drawable/selector_top_skin_listview_item_drawable"
+    android:descendantFocusability="blocksDescendants" >
+
+    <ImageView
+        android:id="@+id/fragment_exchange_good_thumb"
+        style="@style/style_list_item_thumb"
+        android:contentDescription="@string/app_name" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_thumb_width_and_height"
+        android:layout_marginLeft="10dip"
+        android:layout_toRightOf="@id/fragment_exchange_good_thumb" >
+
+        <RelativeLayout
+            android:id="@+id/fragment_exchange_good_main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" >
+
+            <RelativeLayout
+                android:id="@+id/fragment_exchange_operation_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" >
+
+                <Button
+                    android:id="@+id/fragment_exchange_ibtn_exchange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:focusable="false"
+                    android:minHeight="24dip"
+                    android:minWidth="62dip"
+                    android:textColor="@android:color/white"
+                    android:textIsSelectable="false"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/fragment_exchange_count_down_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:textColor="@color/action_bar_color"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/fragment_exchange_good_main_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dip"
+                android:layout_toLeftOf="@id/fragment_exchange_operation_layout"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/app_common_black"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/fragment_exchange_good_sub_title"
+            style="@style/style_list_item_description"
+            android:layout_centerVertical="true"
+            android:singleLine="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" >
+
+            <TextView
+                android:id="@+id/fragment_exchange_good_left_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="@color/action_bar_color"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/fragment_exchange_good_exchange_gold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:drawableLeft="@drawable/convert_icons_coin"
+                android:drawablePadding="3dip"
+                android:gravity="center_vertical"
+                android:textColor="@color/action_bar_color"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/fragment_exchange_good_totle_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/fragment_exchange_good_left_num"
+                android:textColor="#696969"
+                android:textSize="13sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
