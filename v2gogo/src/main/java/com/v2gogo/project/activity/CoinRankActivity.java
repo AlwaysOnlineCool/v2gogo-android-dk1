@@ -37,224 +37,192 @@ import com.ypy.eventbus.EventBus;
  * @author houjun
  *
  */
-public class CoinRankActivity extends BaseActivity implements OnClickListener, OnPullRefreshListener, IonRetryLoadDatasCallback
-{
-	private PullRefreshListView mPullRefreshListView;
-	private RankAdapter mRankAdapter;
+public class CoinRankActivity extends BaseActivity implements OnClickListener, OnPullRefreshListener, IonRetryLoadDatasCallback {
+    private PullRefreshListView mPullRefreshListView;
+    private RankAdapter mRankAdapter;
 
-	private Button mBtnGet;
-	private Button mBtnExchange;
+    private Button mBtnGet;
+    private Button mBtnExchange;
 
-	private ImageView mAvatar;
+    private ImageView mAvatar;
 
-	private TextView mWeekCoin;
-	private TextView mLeftcoin;
-	private TextView mNologin;
-	private TextView mtextTextView;
-	private TextView mTextNickname;
+    private TextView mWeekCoin;
+    private TextView mLeftcoin;
+    private TextView mNologin;
+    private TextView mtextTextView;
+    private TextView mTextNickname;
 
-	private LinearLayout mloginLayout;
-	private ProgressLayout mProgressLayout;
+    private LinearLayout mloginLayout;
+    private ProgressLayout mProgressLayout;
 
-	@Override
-	public void onInitViews()
-	{
-		mProgressLayout = (ProgressLayout) findViewById(R.id.coin_rank_progress_layout);
-		mPullRefreshListView = (PullRefreshListView) findViewById(R.id.coin_rank_pull_to_refresh_listview);
-		initHeaderView();
-		displayUserInfos();
-	}
+    @Override
+    public void onInitViews() {
+        mProgressLayout = (ProgressLayout) findViewById(R.id.coin_rank_progress_layout);
+        mPullRefreshListView = (PullRefreshListView) findViewById(R.id.coin_rank_pull_to_refresh_listview);
+        initHeaderView();
+        displayUserInfos();
+    }
 
-	private void initHeaderView()
-	{
-		View view = getLayoutInflater().inflate(R.layout.rank_activity_head_layout, null);
-		mBtnGet = (Button) view.findViewById(R.id.rank_head_get);
-		mAvatar = (ImageView) view.findViewById(R.id.rank_head_user_avatar);
-		mBtnExchange = (Button) view.findViewById(R.id.rank_head_exchange);
-		mTextNickname = (TextView) view.findViewById(R.id.rank_head_nickname);
-		mtextTextView = (TextView) view.findViewById(R.id.rank_head_account);
-		mWeekCoin = (TextView) view.findViewById(R.id.rank_head_week_coin);
-		mloginLayout = (LinearLayout) view.findViewById(R.id.rank_login_layout);
-		mLeftcoin = (TextView) view.findViewById(R.id.rank_head_left_coin);
-		mNologin = (TextView) view.findViewById(R.id.rank_head_no_login);
-		mPullRefreshListView.addHeaderView(view);
-	}
+    private void initHeaderView() {
+        View view = getLayoutInflater().inflate(R.layout.rank_activity_head_layout, null);
+        mBtnGet = (Button) view.findViewById(R.id.rank_head_get);
+        mAvatar = (ImageView) view.findViewById(R.id.rank_head_user_avatar);
+        mBtnExchange = (Button) view.findViewById(R.id.rank_head_exchange);
+        mTextNickname = (TextView) view.findViewById(R.id.rank_head_nickname);
+        mtextTextView = (TextView) view.findViewById(R.id.rank_head_account);
+        mWeekCoin = (TextView) view.findViewById(R.id.rank_head_week_coin);
+        mloginLayout = (LinearLayout) view.findViewById(R.id.rank_login_layout);
+        mLeftcoin = (TextView) view.findViewById(R.id.rank_head_left_coin);
+        mNologin = (TextView) view.findViewById(R.id.rank_head_no_login);
+        mPullRefreshListView.addHeaderView(view);
+    }
 
-	@Override
-	public int getCurrentLayoutId()
-	{
-		return R.layout.rank_activity_layout;
-	}
+    @Override
+    public int getCurrentLayoutId() {
+        return R.layout.rank_activity_layout;
+    }
 
-	@Override
-	protected void registerListener()
-	{
-		super.registerListener();
-		mBtnGet.setOnClickListener(this);
-		EventBus.getDefault().register(this);
-		mBtnExchange.setOnClickListener(this);
-		mProgressLayout.setOnTryLoadDatasCallback(this);
-		mPullRefreshListView.setOnPullRefreshListener(this);
-	}
+    @Override
+    protected void registerListener() {
+        super.registerListener();
+        mBtnGet.setOnClickListener(this);
+        EventBus.getDefault().register(this);
+        mBtnExchange.setOnClickListener(this);
+        mProgressLayout.setOnTryLoadDatasCallback(this);
+        mPullRefreshListView.setOnPullRefreshListener(this);
+    }
 
-	@Override
-	protected void onInitLoadDatas()
-	{
-		super.onInitLoadDatas();
-		mRankAdapter = new RankAdapter(this);
-		mPullRefreshListView.setAdapter(mRankAdapter);
-		getRankCoinList();
-		mProgressLayout.showProgress();
-	}
+    @Override
+    protected void onInitLoadDatas() {
+        super.onInitLoadDatas();
+        mRankAdapter = new RankAdapter(this);
+        mPullRefreshListView.setAdapter(mRankAdapter);
+        getRankCoinList();
+        mProgressLayout.showProgress();
+    }
 
-	@Override
-	public void onClick(View view)
-	{
-		Intent intent = null;
-		switch (view.getId())
-		{
-			case R.id.rank_head_get:
-				intent = new Intent(this, WebViewActivity.class);
-				intent.putExtra(WebViewActivity.URL, ServerUrlConfig.SERVER_URL + "/get.html");
-				break;
+    @Override
+    public void onClick(View view) {
+        Intent intent = null;
+        switch (view.getId()) {
+            case R.id.rank_head_get:
+                intent = new Intent(this, WebViewActivity.class);
+                intent.putExtra(WebViewActivity.URL, ServerUrlConfig.SERVER_URL + "/get.html");
+                break;
 
-			case R.id.rank_head_exchange:
-				intent = new Intent(this, ExchangeActivity.class);
-				intent.putExtra(ExchangeActivity.SHOW_BACK, true);
-				break;
+            case R.id.rank_head_exchange:
+                intent = new Intent(this, ExchangeActivity.class);
+                intent.putExtra(ExchangeActivity.SHOW_BACK, true);
+                break;
 
-			default:
-				break;
-		}
-		if (null != intent)
-		{
-			startActivity(intent);
-		}
-	}
+            default:
+                break;
+        }
+        if (null != intent) {
+            startActivity(intent);
+        }
+    }
 
-	@Override
-	public void clearRequestTask()
-	{
-		EventBus.getDefault().unregister(this);
-		CoinRankManager.clearGetRankCoinListTask();
-	}
+    @Override
+    public void clearRequestTask() {
+        EventBus.getDefault().unregister(this);
+        CoinRankManager.clearGetRankCoinListTask();
+    }
 
-	@Override
-	public void onPullDownRefresh(AbsListView pullRefreshView)
-	{
-		getRankCoinList();
-	}
+    @Override
+    public void onPullDownRefresh(AbsListView pullRefreshView) {
+        getRankCoinList();
+    }
 
-	@Override
-	public void onRetryLoadDatas()
-	{
-		getRankCoinList();
-	}
+    @Override
+    public void onRetryLoadDatas() {
+        getRankCoinList();
+    }
 
-	@Override
-	protected void onResume()
-	{
-		if (V2GogoApplication.getMasterLoginState())
-		{
-			displayCoinInfos();
-		}
-		super.onResume();
-	}
+    @Override
+    protected void onResume() {
+        if (V2GogoApplication.getMasterLoginState()) {
+            displayCoinInfos();
+        }
+        super.onResume();
+    }
 
-	
-	public void onEventMainThread(CoinChangeInfo changeInfo)
-	{
-		if(null != mLeftcoin)
-		{
-			displayLeftCoin();
-		}
-	}
 
-	
-	/**
-	 * 拉取金币排行榜数据
-	 */
-	private void getRankCoinList()
-	{
-		CoinRankManager.getRankCoinList(new IongetRankCoinListCallback()
-		{
-			@Override
-			public void onGetRankCoinListSuccess(List<RankInfo> rankInfos)
-			{
-				mProgressLayout.showContent();
-				if (mPullRefreshListView.isRefreshing())
-				{
-					mPullRefreshListView.stopPullRefresh();
-				}
-				if (null != rankInfos)
-				{
-					mRankAdapter.resetDatas(rankInfos);
-				}
-			}
+    public void onEventMainThread(CoinChangeInfo changeInfo) {
+        if (null != mLeftcoin) {
+            displayLeftCoin();
+        }
+    }
 
-			@Override
-			public void onGetRankCoinListFail(String errorMessage)
-			{
-				ToastUtil.showAlertToast(CoinRankActivity.this, errorMessage);
-				if (mProgressLayout.getState() != State.CONTENT)
-				{
-					mProgressLayout.showErrorText();
-				}
-				else
-				{
-					if (mPullRefreshListView.isRefreshing())
-					{
-						mPullRefreshListView.stopPullRefresh();
-					}
-				}
-			}
-		});
-	}
 
-	/**
-	 * 显示用户信息
-	 */
-	private void displayUserInfos()
-	{
-		if (V2GogoApplication.getMasterLoginState())
-		{
-			mNologin.setVisibility(View.GONE);
-			mloginLayout.setVisibility(View.VISIBLE);
-			mTextNickname.setText(V2GogoApplication.getCurrentMatser().getFullname());
-			mtextTextView.setText(String.format(getString(R.string.coin_account_tip), V2GogoApplication.getCurrentMatser().getUsername()));
-			GlideImageLoader.loadAvatarImageWithFixedSize(this, V2GogoApplication.getCurrentMatser().getThumbialAvatar(), mAvatar);
-		}
-		else
-		{
-			GlideImageLoader.loadInternalDrawable(this, R.drawable.user_icons_user_orange, mAvatar);
-			mloginLayout.setVisibility(View.GONE);
-			mNologin.setVisibility(View.VISIBLE);
-		}
-	}
+    /**
+     * 拉取金币排行榜数据
+     */
+    private void getRankCoinList() {
+        CoinRankManager.getRankCoinList(new IongetRankCoinListCallback() {
+            @Override
+            public void onGetRankCoinListSuccess(List<RankInfo> rankInfos) {
+                mProgressLayout.showContent();
+                if (mPullRefreshListView.isRefreshing()) {
+                    mPullRefreshListView.stopPullRefresh();
+                }
+                if (null != rankInfos) {
+                    mRankAdapter.resetDatas(rankInfos);
+                }
+            }
 
-	/**
-	 * 显示金币信息
-	 */
-	private void displayCoinInfos()
-	{
-		displayLeftCoin();
-		String str = String.format(getString(R.string.coin_rank_week_tip), V2GogoApplication.getCurrentMatser().getWeekcoin());
-		SpannableStringBuilder stringBuilder = new SpannableStringBuilder(str);
-		ForegroundColorSpan foregroundColorSpan = new ForegroundColorSpan(0xFFF96700);
-		stringBuilder.setSpan(foregroundColorSpan, 5, str.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-		mWeekCoin.setText(stringBuilder);
-	}
+            @Override
+            public void onGetRankCoinListFail(String errorMessage) {
+                ToastUtil.showAlertToast(CoinRankActivity.this, errorMessage);
+                if (mProgressLayout.getState() != State.CONTENT) {
+                    mProgressLayout.showErrorText();
+                } else {
+                    if (mPullRefreshListView.isRefreshing()) {
+                        mPullRefreshListView.stopPullRefresh();
+                    }
+                }
+            }
+        });
+    }
 
-	
-	/**
-	 *  显示剩余金币
-	 */
-	private void displayLeftCoin()
-	{
-		String str = String.format(getString(R.string.coin_rank_now_tip), V2GogoApplication.getCurrentMatser().getCoin());
-		SpannableStringBuilder stringBuilder = new SpannableStringBuilder(str);
-		ForegroundColorSpan foregroundColorSpan = new ForegroundColorSpan(0xFFF96700);
-		stringBuilder.setSpan(foregroundColorSpan, 5, str.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-		mLeftcoin.setText(stringBuilder);
-	}
+    /**
+     * 显示用户信息
+     */
+    private void displayUserInfos() {
+        if (V2GogoApplication.getMasterLoginState()) {
+            mNologin.setVisibility(View.GONE);
+            mloginLayout.setVisibility(View.VISIBLE);
+            mTextNickname.setText(V2GogoApplication.getCurrentMatser().getFullname());
+            mtextTextView.setText(String.format(getString(R.string.coin_account_tip), V2GogoApplication.getCurrentMatser().getUsername()));
+            GlideImageLoader.loadAvatarImageWithFixedSize(this, V2GogoApplication.getCurrentMatser().getThumbialAvatar(), mAvatar);
+        } else {
+            GlideImageLoader.loadInternalDrawable(this, R.drawable.user_icons_user_orange, mAvatar);
+            mloginLayout.setVisibility(View.GONE);
+            mNologin.setVisibility(View.VISIBLE);
+        }
+    }
+
+    /**
+     * 显示金币信息
+     */
+    private void displayCoinInfos() {
+        displayLeftCoin();
+        String str = String.format(getString(R.string.coin_rank_week_tip), V2GogoApplication.getCurrentMatser().getWeekcoin());
+        SpannableStringBuilder stringBuilder = new SpannableStringBuilder(str);
+        ForegroundColorSpan foregroundColorSpan = new ForegroundColorSpan(0xFFF96700);
+        stringBuilder.setSpan(foregroundColorSpan, 5, str.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+        mWeekCoin.setText(stringBuilder);
+    }
+
+
+    /**
+     *  显示剩余金币
+     */
+    private void displayLeftCoin() {
+        String str = String.format(getString(R.string.coin_rank_now_tip), V2GogoApplication.getCurrentMatser().getCoin());
+        SpannableStringBuilder stringBuilder = new SpannableStringBuilder(str);
+        ForegroundColorSpan foregroundColorSpan = new ForegroundColorSpan(0xFFF96700);
+        stringBuilder.setSpan(foregroundColorSpan, 5, str.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+        mLeftcoin.setText(stringBuilder);
+    }
 }

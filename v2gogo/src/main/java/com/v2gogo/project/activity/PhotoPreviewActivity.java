@@ -32,235 +32,197 @@ import com.v2gogo.project.views.imageview.PhotoPreview;
 
 /**
  * 图片预览
- * 
+ *
  * @author houjun
  */
-public class PhotoPreviewActivity extends BaseActivity implements OnPageChangeListener, OnClickListener
-{
+public class PhotoPreviewActivity extends BaseActivity implements OnPageChangeListener, OnClickListener {
 
-	public static final String INDEX = "index";
-	public static final String PATHS = "paths";
+    public static final String INDEX = "index";
+    public static final String PATHS = "paths";
 
-	private List<String> mPaths;
+    private List<String> mPaths;
 
-	private DotViews mDotViews;
-	private NoFageColorViewPager mFageColorViewPager;
-	private ImageView mBackImageView;
-	private ImageView mDownloadPicImgeView;
+    private DotViews mDotViews;
+    private NoFageColorViewPager mFageColorViewPager;
+    private ImageView mBackImageView;
+    private ImageView mDownloadPicImgeView;
 
-	private PhotoPreview mCurrentImageView;
-	private String mCurrentImagePath;
-	private TextView mCurrentTv;
+    private PhotoPreview mCurrentImageView;
+    private String mCurrentImagePath;
+    private TextView mCurrentTv;
 
-	private PagerAdapter mPagerAdapter = new PagerAdapter()
-	{
-		@Override
-		public int getCount()
-		{
-			if (mPaths == null)
-			{
-				return 0;
-			}
-			else
-			{
-				return mPaths.size();
-			}
-		}
+    private PagerAdapter mPagerAdapter = new PagerAdapter() {
+        @Override
+        public int getCount() {
+            if (mPaths == null) {
+                return 0;
+            } else {
+                return mPaths.size();
+            }
+        }
 
-		@Override
-		public View instantiateItem(final ViewGroup container, final int position)
-		{
-			PhotoPreview photoPreview = new PhotoPreview(getApplicationContext());
-			((ViewPager) container).addView(photoPreview);
-			photoPreview.loadImage(mPaths.get(position));
-			photoPreview.setOnClickListener(photoItemClickListener);
-			return photoPreview;
-		}
+        @Override
+        public View instantiateItem(final ViewGroup container, final int position) {
+            PhotoPreview photoPreview = new PhotoPreview(getApplicationContext());
+            ((ViewPager) container).addView(photoPreview);
+            photoPreview.loadImage(mPaths.get(position));
+            photoPreview.setOnClickListener(photoItemClickListener);
+            return photoPreview;
+        }
 
-		@Override
-		public void destroyItem(ViewGroup container, int position, Object object)
-		{
-			container.removeView((View) object);
-		}
+        @Override
+        public void destroyItem(ViewGroup container, int position, Object object) {
+            container.removeView((View) object);
+        }
 
-		@Override
-		public boolean isViewFromObject(View view, Object object)
-		{
-			return view == object;
-		}
+        @Override
+        public boolean isViewFromObject(View view, Object object) {
+            return view == object;
+        }
 
-		public void setPrimaryItem(ViewGroup container, int position, Object object)
-		{
-			mCurrentImageView = (PhotoPreview) object;
-		};
+        public void setPrimaryItem(ViewGroup container, int position, Object object) {
+            mCurrentImageView = (PhotoPreview) object;
+        }
 
-	};
+        ;
 
-	private OnClickListener photoItemClickListener = new OnClickListener()
-	{
-		@Override
-		public void onClick(View v)
-		{
-			outPhotoPrivew();
-		}
-	};
+    };
 
-	@Override
-	public void onPageScrollStateChanged(int arg0)
-	{
+    private OnClickListener photoItemClickListener = new OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            outPhotoPrivew();
+        }
+    };
 
-	}
+    @Override
+    public void onPageScrollStateChanged(int arg0) {
 
-	@Override
-	public void onPageScrolled(int arg0, float arg1, int arg2)
-	{
+    }
 
-	}
+    @Override
+    public void onPageScrolled(int arg0, float arg1, int arg2) {
 
-	@Override
-	public void onPageSelected(int position)
-	{
-		mDotViews.select(position);
-		setCurrentPositonTv(position);
-	}
+    }
 
-	@Override
-	public void clearRequestTask()
-	{
-	}
+    @Override
+    public void onPageSelected(int position) {
+        mDotViews.select(position);
+        setCurrentPositonTv(position);
+    }
 
-	@Override
-	public void onInitViews()
-	{
-		mBackImageView = (ImageView) findViewById(R.id.article_back_img);
-		mDownloadPicImgeView = (ImageView) findViewById(R.id.article_download_pic_iv);
-		mCurrentTv = (TextView) findViewById(R.id.article_photopic_tv);
-		mBackImageView.setOnClickListener(this);
-		mDownloadPicImgeView.setOnClickListener(this);
+    @Override
+    public void clearRequestTask() {
+    }
 
-		mPaths = getIntent().getStringArrayListExtra(PATHS);
-		mDotViews = (DotViews) findViewById(R.id.activity_photo_preview_dots);
-		mFageColorViewPager = (NoFageColorViewPager) findViewById(R.id.activity_photo_preview_viewpager);
-		mFageColorViewPager.setAdapter(mPagerAdapter);
-		mFageColorViewPager.setOnPageChangeListener(this);
-		int index = getIntent().getIntExtra(INDEX, 0);
-		mFageColorViewPager.setCurrentItem(index);
+    @Override
+    public void onInitViews() {
+        mBackImageView = (ImageView) findViewById(R.id.article_back_img);
+        mDownloadPicImgeView = (ImageView) findViewById(R.id.article_download_pic_iv);
+        mCurrentTv = (TextView) findViewById(R.id.article_photopic_tv);
+        mBackImageView.setOnClickListener(this);
+        mDownloadPicImgeView.setOnClickListener(this);
 
-		setCurrentPositonTv(index);
+        mPaths = getIntent().getStringArrayListExtra(PATHS);
+        mDotViews = (DotViews) findViewById(R.id.activity_photo_preview_dots);
+        mFageColorViewPager = (NoFageColorViewPager) findViewById(R.id.activity_photo_preview_viewpager);
+        mFageColorViewPager.setAdapter(mPagerAdapter);
+        mFageColorViewPager.setOnPageChangeListener(this);
+        int index = getIntent().getIntExtra(INDEX, 0);
+        mFageColorViewPager.setCurrentItem(index);
 
-		mDotViews.setSize(mPaths.size());
-		mDotViews.select(index);
-		mDotViews.setVisibility(View.GONE);
-		
-		setEnterAnim();
-	}
+        setCurrentPositonTv(index);
 
-	private void setCurrentPositonTv(int index)
-	{
-		mCurrentImagePath = mPaths.get(index);
-		mCurrentTv.setText((index + 1) + "/" + mPaths.size());
-	}
+        mDotViews.setSize(mPaths.size());
+        mDotViews.select(index);
+        mDotViews.setVisibility(View.GONE);
 
-	/**
-	 * 设置进入动画
-	 */
-	private void setEnterAnim()
-	{
-		try
-		{
-			BaseAnimViewS.animDuration = 400;
-			SwitchLayout.animDuration = 400;
-			SwitchLayout.longAnimDuration = 800;
-			BaseAnimViewS.longAnimDuration = 800;
-			SwitchLayout.ScaleBig(this, false, null);
-		}
-		catch (Exception e)
-		{
-		}
-	}
+        setEnterAnim();
+    }
 
-	public boolean onKeyDown(int keyCode, KeyEvent event)
-	{
-		if (keyCode == KeyEvent.KEYCODE_BACK && event.getRepeatCount() == 0)
-		{
-			outPhotoPrivew();
-			return true;
-		}
-		return super.onKeyDown(keyCode, event);
-	}
+    private void setCurrentPositonTv(int index) {
+        mCurrentImagePath = mPaths.get(index);
+        mCurrentTv.setText((index + 1) + "/" + mPaths.size());
+    }
 
-	@Override
-	public int getCurrentLayoutId()
-	{
-		return R.layout.activity_photopreview_layout;
-	}
+    /**
+     * 设置进入动画
+     */
+    private void setEnterAnim() {
+        try {
+            BaseAnimViewS.animDuration = 400;
+            SwitchLayout.animDuration = 400;
+            SwitchLayout.longAnimDuration = 800;
+            BaseAnimViewS.longAnimDuration = 800;
+            SwitchLayout.ScaleBig(this, false, null);
+        } catch (Exception e) {
+        }
+    }
 
-	@Override
-	public void onClick(View arg0)
-	{
-		switch (arg0.getId())
-		{
-			case R.id.article_back_img:
-				outPhotoPrivew();
-				break;
-			case R.id.article_download_pic_iv:
-				saveChoicePic(mCurrentImagePath);
-				break;
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if (keyCode == KeyEvent.KEYCODE_BACK && event.getRepeatCount() == 0) {
+            outPhotoPrivew();
+            return true;
+        }
+        return super.onKeyDown(keyCode, event);
+    }
 
-			default:
-				break;
-		}
-	}
+    @Override
+    public int getCurrentLayoutId() {
+        return R.layout.activity_photopreview_layout;
+    }
 
-	/**
-	 * 退出图片浏览
-	 */
-	private void outPhotoPrivew()
-	{
-		try
-		{
-			SwitchLayout.ScaleSmall(this, true, BaseEffects.acceInter);
-		}
-		catch (Exception exception)
-		{
-		}
-	}
+    @Override
+    public void onClick(View arg0) {
+        switch (arg0.getId()) {
+            case R.id.article_back_img:
+                outPhotoPrivew();
+                break;
+            case R.id.article_download_pic_iv:
+                saveChoicePic(mCurrentImagePath);
+                break;
 
-	/**
-	 * @param path
-	 *            图片的网络地址
-	 */
-	private void saveChoicePic(String path)
-	{
-		Bitmap bitmap = ((BitmapDrawable) mCurrentImageView.getIvContent().getDrawable()).getBitmap();
-		saveMyBitmap(path, bitmap);
-	}
+            default:
+                break;
+        }
+    }
 
-	private void saveMyBitmap(String imgPath, Bitmap mBitmap)
-	{
-		// File f = new File("/sdcard/" + bitName + ".png");
-		String fileName = MD5Util.getMD5String(imgPath);
-		File f = StorageUtils.getOwnCacheDirectory(this, "v2gogo/" + fileName + ".jpg");
-		if (f.exists())
-		{
-			f.delete();
-		}
-		FileOutputStream fOut = null;
-		try
-		{
-			fOut = new FileOutputStream(f);
-			mBitmap.compress(Bitmap.CompressFormat.JPEG, 100, fOut);
-			fOut.flush();
-			fOut.close();
-		}
-		catch (FileNotFoundException e)
-		{
-			e.printStackTrace();
-		}
-		catch (IOException e)
-		{
-			e.printStackTrace();
-		}
-		ToastUtil.showConfirmToast(this, "已保存到SD卡v2gogo文件夹下");
-	}
+    /**
+     * 退出图片浏览
+     */
+    private void outPhotoPrivew() {
+        try {
+            SwitchLayout.ScaleSmall(this, true, BaseEffects.acceInter);
+        } catch (Exception exception) {
+        }
+    }
+
+    /**
+     * @param path 图片的网络地址
+     */
+    private void saveChoicePic(String path) {
+        Bitmap bitmap = ((BitmapDrawable) mCurrentImageView.getIvContent().getDrawable()).getBitmap();
+        saveMyBitmap(path, bitmap);
+    }
+
+    private void saveMyBitmap(String imgPath, Bitmap mBitmap) {
+        // File f = new File("/sdcard/" + bitName + ".png");
+        String fileName = MD5Util.getMD5String(imgPath);
+        File f = StorageUtils.getOwnCacheDirectory(this, "v2gogo/" + fileName + ".jpg");
+        if (f.exists()) {
+            f.delete();
+        }
+        FileOutputStream fOut = null;
+        try {
+            fOut = new FileOutputStream(f);
+            mBitmap.compress(Bitmap.CompressFormat.JPEG, 100, fOut);
+            fOut.flush();
+            fOut.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        ToastUtil.showConfirmToast(this, "已保存到SD卡v2gogo文件夹下");
+    }
 }

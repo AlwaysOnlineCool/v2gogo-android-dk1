@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.v2gogo.project"
     android:installLocation="preferExternal"
-    xmlns:tools="http://schemas.android.com/tools"
     android:versionCode="401"
-    android:versionName="4.0.1" >
+    android:versionName="4.0.1">
 
     <uses-sdk
         android:minSdkVersion="10"
@@ -45,8 +45,7 @@
 
     <permission
         android:name="getui.permission.GetuiService.com.v2gogo.project"
-        android:protectionLevel="normal" >
-    </permission>
+        android:protectionLevel="normal"></permission>
 
     <application
         android:name="com.v2gogo.project.main.V2GogoApplication"
@@ -54,12 +53,12 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:largeHeap="true"
-        tools:replace="android:icon, android:theme, android:label"
-        android:theme="@android:style/Theme.NoTitleBar" >
+        android:theme="@android:style/Theme.NoTitleBar"
+        tools:replace="android:icon, android:theme, android:label">
         <activity
             android:name="com.v2gogo.project.activity.StartPageActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/app_theme" >
+            android:theme="@style/app_theme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -79,7 +78,7 @@
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
-            android:windowSoftInputMode="stateHidden|adjustResize" >
+            android:windowSoftInputMode="stateHidden|adjustResize">
             <intent-filter>
                 <data android:scheme="db-626869ca653c" />
 
@@ -100,14 +99,14 @@
         <activity
             android:name="cn.sharesdk.tencent.qq.ResultReceiver"
             android:launchMode="singleTask"
-            android:noHistory="true" >
+            android:noHistory="true">
 
             <!--
 如果集成QQ分享，或者使用QQ客户端来进行QQ空间的分享，须要在此处添加一个对ACTION_VIEW
 事件的过滤器，其中的scheme是“tencent”前缀再开发者应用的加上appId。如果此过滤器不设置，
 则分享结束以后不能得到正确的回调
             -->
-            <intent-filter android:priority="1000" >
+            <intent-filter android:priority="1000">
                 <data android:scheme="tencent1104336804" />
 
                 <action android:name="android.intent.action.VIEW" />
@@ -124,8 +123,7 @@
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
             android:name="com.v2gogo.project.activity.home.v2gogo.HomeV2gogoActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.home.theme.NewestThemePhotoListActivity"
             android:screenOrientation="portrait" />
@@ -135,8 +133,7 @@
         <activity
             android:name="com.v2gogo.project.activity.home.theme.HomeThemePhotoTabActivity"
             android:launchMode="singleTask"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.home.theme.HomeThemePhotoSearchActivity"
             android:screenOrientation="portrait"
@@ -156,222 +153,172 @@
             android:configChanges="orientation|keyboardHidden|navigation"
             android:exported="false"
             android:screenOrientation="behind"
-            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" >
-        </activity>
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"></activity>
         <activity
             android:name="com.v2gogo.project.activity.WizardActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.StartPageAdActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.home.v2gogo.HomeV2gogoDaJiangActivity"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" >
-        </activity>
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"></activity>
         <activity
             android:name="com.v2gogo.project.activity.home.HomeConcernActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.exchange.ExchangePrizeDetailsActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.v2gogo.project.activity.profile.ProfileMessageActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.profile.setting.ProfileSettingActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.profile.ProfilePrizeActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.profile.ProfileInviteFriendActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.profile.ProfileOrderActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.PhotoPreviewActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-        </activity>
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
         <activity
             android:name="com.v2gogo.project.activity.profile.ProfileCommentActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.shop.CommitOrderActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.home.theme.BaseThemePhotoListActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.profile.ProfileCollectionActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.profile.setting.ProfileSettingPayActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.profile.ProfileMessageDetailsActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.profile.ProfileInfoActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.profile.ProfileProviceActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.profile.ProfileCommentTabActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.profile.ProfileReplyCommentActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.shop.ShopActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.home.HomeShakeActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.account.AccountVerificationCodeActivity"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" >
-        </activity>
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"></activity>
         <activity
             android:name="com.v2gogo.project.activity.account.AccountLoginActivity"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" >
-        </activity>
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"></activity>
         <activity
             android:name="com.v2gogo.project.activity.account.AccountRegisterActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.MainTabActivity"
             android:launchMode="singleTask"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.home.HomeCommentActivity"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" >
-        </activity>
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"></activity>
         <activity
             android:name="com.v2gogo.project.activity.home.HomeArticleDetailsActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.home.HomeCommentListActivity"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" >
-        </activity>
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"></activity>
         <activity
             android:name="com.v2gogo.project.activity.home.HomeActivity"
             android:hardwareAccelerated="true"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.home.HomeActivity2"
             android:hardwareAccelerated="true"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.profile.ProfileActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.exchange.ExchangeActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.profile.ProfileModifyPasswordActivity"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" >
-        </activity>
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"></activity>
         <activity
             android:name="com.v2gogo.project.activity.home.HotCommentListActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.home.NewestCommentListActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.account.AccountForgetPasswordActivity"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" >
-        </activity>
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"></activity>
         <activity
             android:name="com.v2gogo.project.activity.V2gogoUserProtocolActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.shop.GroupGoodsDetailsActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.profile.setting.AboutUsActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.profile.setting.FeedbackActivity"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" >
-        </activity>
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"></activity>
         <activity
             android:name="com.v2gogo.project.activity.CoinRankActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.profile.setting.ProductDescriptionActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.profile.ProfileCityActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.home.v2gogo.VedioPlayActivity"
             android:launchMode="singleInstance"
             android:process=":extend"
             android:screenOrientation="landscape"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
-        </activity>
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
         <activity
             android:name="com.v2gogo.project.activity.WebViewActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.shop.OrderDetailsActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.shop.OrderSettlementActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.home.HomeLiveActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.v2gogo.project.activity.profile.ProfileEtcQuanActivity"
             android:screenOrientation="portrait" />
@@ -431,7 +378,7 @@
         <!-- 配置第三方Receiver -->
         <receiver
             android:name="com.v2gogo.project.PushDemoReceiver"
-            android:exported="false" >
+            android:exported="false">
             <intent-filter>
                 <action android:name="com.igexin.sdk.action.0YiYoEgQtC98giwoNQnrv" />
             </intent-filter>
@@ -442,10 +389,9 @@
             android:name="com.igexin.sdk.PushService"
             android:exported="true"
             android:label="NotificationCenter"
-            android:process=":pushservice" >
-        </service>
+            android:process=":pushservice"></service>
 
-        <receiver android:name="com.igexin.sdk.PushReceiver" >
+        <receiver android:name="com.igexin.sdk.PushReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
@@ -455,7 +401,7 @@
         </receiver>
         <receiver
             android:name="com.igexin.sdk.PushManagerReceiver"
-            android:exported="false" >
+            android:exported="false">
             <intent-filter>
                 <action android:name="com.igexin.sdk.action.pushmanager" />
             </intent-filter>
@@ -467,8 +413,7 @@
             android:exported="false"
             android:process=":pushservice"
             android:taskAffinity="com.igexin.sdk.PushActivityTask"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-        </activity>
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
 
         <service
             android:name="com.igexin.download.DownloadService"
@@ -485,7 +430,7 @@
 
         <receiver
             android:name="com.igexin.getuiext.service.PayloadReceiver"
-            android:exported="false" >
+            android:exported="false">
             <intent-filter>
                 <action android:name="com.igexin.sdk.action.7fjUl2Z3LH6xYy7NQK4ni4" />
                 <action android:name="com.igexin.sdk.action.0YiYoEgQtC98giwoNQnrv" />
